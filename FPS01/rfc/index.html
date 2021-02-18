@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://help.fioriappsusage.org/FPS01/set-cen/">
+        <link rel="canonical" href="https://help.fioriappsusage.org/FPS01/rfc/">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
     
     
       
-        <title>Set the Central system - Fiori Apps' Usage Report</title>
+        <title>How to prepare the RFC destinations for Central system - Fiori Apps' Usage Report</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#set-the-central-system" class="md-skip">
+        <a href="#how-to-prepare-the-rfc-destinations-for-central-system" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Set the Central system
+              How to prepare the RFC destinations for Central system
             
           </span>
         </div>
@@ -240,11 +240,13 @@
               
                 
                 
-                <h1 id="set-the-central-system">Set the Central system</h1>
-<ol>
-<li>In your Managed system, start SAP Gui transaction <strong>ZNYPEFAMANADMIN</strong>, and start step <strong>1. Modify Central system</strong>:</li>
-</ol>
-<p>In RFC Destination field provide the RFC destination of your Central system (see <a href="../rfc/">how to prepare it</a>)</p>
+                <h1 id="how-to-prepare-the-rfc-destinations-for-central-system">How to prepare the RFC destinations for Central system</h1>
+<p>On each Managed system you will need RFC destinations that will run Fiori Apps' Usage App, and serve as you Central system. Create RFC destination in your Managed system using transaction <strong>sm59</strong>. </p>
+<p>The user set in RFC destination needs to have type SYSTEM and the following authorizations:</p>
+<p>Authorization: S_RFC</p>
+<p>ACTVT: 16</p>
+<p>RFC_TYPE: FUGR</p>
+<p>RFC_NAME: Z_FTASIS</p>
                 
               
               

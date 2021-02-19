@@ -9,21 +9,21 @@
       
       
       
-        <link rel="canonical" href="https://help.fioriappsusage.org/2020/FPS01/tech/">
+        <link rel="canonical" href="https://help.fioriappsusage.org/2020/ui5lib-options/">
       
-      <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+      <link rel="shortcut icon" href="../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
     
     
       
-        <title>Catalog Import - Technical Details - Fiori Apps' Usage Report</title>
+        <title>List of options for running Fiori Tracker apps on a specific UI5 library - Fiori Apps' Usage Report</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.15aa0b43.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.15aa0b43.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.75751829.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.75751829.min.css">
         
       
     
@@ -38,7 +38,7 @@
     
     
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     
       
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#catalog-import-technical-details" class="md-skip">
+        <a href="#list-of-options-for-running-fiori-tracker-apps-on-a-specific-ui5-library" class="md-skip">
           Skip to content
         </a>
       
@@ -85,7 +85,7 @@
   <nav class="md-header-nav md-grid" aria-label="Header">
     <a href="https://help.fioriappsusage.org" title="Fiori Apps&#39; Usage Report" class="md-header-nav__button md-logo" aria-label="Fiori Apps' Usage Report">
       
-  <img src="../../../assets/images/logo.png" alt="logo">
+  <img src="../../assets/images/logo.png" alt="logo">
 
     </a>
     <label class="md-header-nav__button md-icon" for="__drawer">
@@ -101,7 +101,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Catalog Import - Technical Details
+              List of options for running Fiori Tracker apps on a specific UI5 library
             
           </span>
         </div>
@@ -164,7 +164,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://help.fioriappsusage.org" title="Fiori Apps&#39; Usage Report" class="md-nav__button md-logo" aria-label="Fiori Apps' Usage Report">
       
-  <img src="../../../assets/images/logo.png" alt="logo">
+  <img src="../../assets/images/logo.png" alt="logo">
 
     </a>
     Fiori Apps' Usage Report
@@ -179,7 +179,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../main/" class="md-nav__link">
+    <a href="../FPS01/main/" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -192,7 +192,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../inst/" class="md-nav__link">
+    <a href="../FPS01/inst/" class="md-nav__link">
       Installation
     </a>
   </li>
@@ -205,7 +205,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../faq/" class="md-nav__link">
+    <a href="../faq/" class="md-nav__link">
       FAQ
     </a>
   </li>
@@ -229,41 +229,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#central-system-components" class="md-nav__link">
-    Central System Components
-  </a>
-  
-    <nav class="md-nav" aria-label="Central System Components">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#app-ft-catalog-import" class="md-nav__link">
-    App: "FT Catalog Import"
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#managed-system-components" class="md-nav__link">
-    Managed System Components
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -275,23 +240,10 @@
               
                 
                 
-                <h1 id="catalog-import-technical-details">Catalog Import - Technical Details</h1>
-<h2 id="central-system-components">Central System Components</h2>
-<p>Transport Package: ZNYPE<strong>CI</strong>CEN</p>
-<p>oData Service Name: ZNYPECICEN_SRV</p>
-<h4 id="app-ft-catalog-import">App: "FT Catalog Import"</h4>
-<p>Launch Path: https://<code>host:port</code>/sap/bc/ui5_ui5/sap/zftcatimport</p>
-<p>Fiori Launchpad Designer Settings<br>
-* Catalog: ZCNYPE<strong>CI</strong>
-* Group: ZGNYPE<strong>CI</strong></p>
-<p>Tile: "Catalog Import"<br>
-* Semantic Object: ZNYPECI
-* Action: display
-* ID: nype.ft.catimport
-* Icon: sap-icon://Fiori2/F0283</p>
-<p>PFCG Role: ZNYPE_<strong>CI</strong></p>
-<h2 id="managed-system-components">Managed System Components</h2>
-<p>Transport Package: ZNYPE<strong>CI</strong>MAN</p>
+                <h1 id="list-of-options-for-running-fiori-tracker-apps-on-a-specific-ui5-library">List of options for running Fiori Tracker apps on a specific UI5 library</h1>
+<p>Fiori Tracker Suite applications require access to the SAP UI5 library. They were built and tested for SAP UI5 1.52, so they work best with this specific version. They should also work with higher versions, but we have not performed the tests for them yet.</p>
+<p>On systems with Fiori Launchpad configured the default available library will be used.</p>
+<p>If default SAP UI5 library is not be found in your system Fiori Tracker Suite applications will automatically start using the library provided by SAP on Content Delivery Network (CDN). If the CDN is not accessible and you are not able to set UI5 library locally you can install "uideps" which will provide the library from your local system in a form of BSP. This is also the way to provide a specific version of the library for Fiori Tracker apps in case your default UI5 library version would cause issues.</p>
                 
               
               
@@ -345,15 +297,15 @@
       
     </div>
     
-      <script src="../../../assets/javascripts/vendor.93c04032.min.js"></script>
-      <script src="../../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
-          base: "../../..",
+          base: "../..",
           features: [],
           search: Object.assign({
-            worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
+            worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>

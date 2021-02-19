@@ -9,21 +9,21 @@
       
       
       
-        <link rel="canonical" href="https://help.fioriappsusage.org/">
+        <link rel="canonical" href="https://help.fioriappsusage.org/2020/inst/admin/">
       
-      <link rel="shortcut icon" href="assets/images/favicon.ico">
+      <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
     
     
       
-        <title>Fiori Apps' Usage Report</title>
+        <title>Step 1 - Configure managed systems - Fiori Apps' Usage Report</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.15aa0b43.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.15aa0b43.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.75751829.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.75751829.min.css">
         
       
     
@@ -38,7 +38,7 @@
     
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
     
       
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sap-fiori-applications-usage-control" class="md-skip">
+        <a href="#step-1-configure-managed-systems" class="md-skip">
           Skip to content
         </a>
       
@@ -85,7 +85,7 @@
   <nav class="md-header-nav md-grid" aria-label="Header">
     <a href="https://help.fioriappsusage.org" title="Fiori Apps&#39; Usage Report" class="md-header-nav__button md-logo" aria-label="Fiori Apps' Usage Report">
       
-  <img src="assets/images/logo.png" alt="logo">
+  <img src="../../../assets/images/logo.png" alt="logo">
 
     </a>
     <label class="md-header-nav__button md-icon" for="__drawer">
@@ -101,7 +101,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              SAP Fiori applications usage control
+              Step 1 - Configure managed systems
             
           </span>
         </div>
@@ -164,7 +164,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://help.fioriappsusage.org" title="Fiori Apps&#39; Usage Report" class="md-nav__button md-logo" aria-label="Fiori Apps' Usage Report">
       
-  <img src="assets/images/logo.png" alt="logo">
+  <img src="../../../assets/images/logo.png" alt="logo">
 
     </a>
     Fiori Apps' Usage Report
@@ -179,7 +179,7 @@
 
 
   <li class="md-nav__item">
-    <a href="2020/FPS01/main/" class="md-nav__link">
+    <a href="../../FPS01/main/" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -192,7 +192,7 @@
 
 
   <li class="md-nav__item">
-    <a href="2020/FPS01/inst/" class="md-nav__link">
+    <a href="../../FPS01/inst/" class="md-nav__link">
       Installation
     </a>
   </li>
@@ -205,7 +205,7 @@
 
 
   <li class="md-nav__item">
-    <a href="2020/faq.md" class="md-nav__link">
+    <a href="../../faq.md" class="md-nav__link">
       FAQ
     </a>
   </li>
@@ -240,16 +240,18 @@
               
                 
                 
-                <h1 id="sap-fiori-applications-usage-control">SAP Fiori applications usage control</h1>
-<p>Fiori Apps' Usage report identifies applications started by user in from SAP Fiori Launchpad.</p>
-<h1 id="key-features">Key features</h1>
-<p>The following are the key features of Fiori Apps’ Usage Report:</p>
-<ul>
-<li>Perform audit and compliance with the scope defined for the project</li>
-<li>Detect access risks across your SAP landscape</li>
-<li>Enable functional consultants input on building roles based on SAP Fiori launchpad catalogs and groups</li>
-<li>Automate reviews of user access</li>
-</ul>
+                <h1 id="step-1-configure-managed-systems">Step 1 - Configure managed systems</h1>
+<ol>
+<li>Using SAP Gui <code>Admin transaction</code> start step <code>1. Modify Managed systems</code>:</li>
+</ol>
+<p><img alt="" src="../res/managed-systems.png" /></p>
+<p>For each managed system defined by column <code>System ID</code> provide respective <code>RFC destination</code> (see <a href="/inst-ux/rfc.md">how to prepare it</a>. Leave the rest of the fields - they are updated automatically on <em>Connection status check</em>.</p>
+<ol>
+<li>Check connection status</li>
+</ol>
+<p>Using same SAP Gui <code>Admin transaction</code> start step <code>2. Connection status check Modify Managed systems</code>:</p>
+<p>For correctly configured systems it should show green light in column <code>status</code> as shown on below screenshot:</p>
+<p><img alt="" src="../res/connection-status.png" /></p>
                 
               
               
@@ -303,15 +305,15 @@
       
     </div>
     
-      <script src="assets/javascripts/vendor.93c04032.min.js"></script>
-      <script src="assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../../../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
-          base: ".",
+          base: "../../..",
           features: [],
           search: Object.assign({
-            worker: "assets/javascripts/worker/search.8c7e0a7e.min.js"
+            worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>

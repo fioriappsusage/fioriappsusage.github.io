@@ -9,21 +9,21 @@
       
       
       
-        <link rel="canonical" href="https://help.fioriappsusage.org/">
+        <link rel="canonical" href="https://help.fioriappsusage.org/2020/inst/step-3/">
       
-      <link rel="shortcut icon" href="assets/images/favicon.ico">
+      <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
     
     
       
-        <title>Fiori Apps' Usage Report</title>
+        <title>Step 3 - Enable oData service - Fiori Apps' Usage Report</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.15aa0b43.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.15aa0b43.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.75751829.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.75751829.min.css">
         
       
     
@@ -38,7 +38,7 @@
     
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
     
       
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sap-fiori-applications-usage-control" class="md-skip">
+        <a href="#step-3-enable-odata-service" class="md-skip">
           Skip to content
         </a>
       
@@ -85,7 +85,7 @@
   <nav class="md-header-nav md-grid" aria-label="Header">
     <a href="https://help.fioriappsusage.org" title="Fiori Apps&#39; Usage Report" class="md-header-nav__button md-logo" aria-label="Fiori Apps' Usage Report">
       
-  <img src="assets/images/logo.png" alt="logo">
+  <img src="../../../assets/images/logo.png" alt="logo">
 
     </a>
     <label class="md-header-nav__button md-icon" for="__drawer">
@@ -101,7 +101,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              SAP Fiori applications usage control
+              Step 3 - Enable oData service
             
           </span>
         </div>
@@ -164,7 +164,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://help.fioriappsusage.org" title="Fiori Apps&#39; Usage Report" class="md-nav__button md-logo" aria-label="Fiori Apps' Usage Report">
       
-  <img src="assets/images/logo.png" alt="logo">
+  <img src="../../../assets/images/logo.png" alt="logo">
 
     </a>
     Fiori Apps' Usage Report
@@ -179,7 +179,7 @@
 
 
   <li class="md-nav__item">
-    <a href="2020/FPS01/main/" class="md-nav__link">
+    <a href="../../FPS01/main/" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -192,7 +192,7 @@
 
 
   <li class="md-nav__item">
-    <a href="2020/FPS01/inst/" class="md-nav__link">
+    <a href="../../FPS01/inst/" class="md-nav__link">
       Installation
     </a>
   </li>
@@ -205,7 +205,7 @@
 
 
   <li class="md-nav__item">
-    <a href="2020/faq.md" class="md-nav__link">
+    <a href="../../faq.md" class="md-nav__link">
       FAQ
     </a>
   </li>
@@ -229,6 +229,35 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-generate-runtime-objects-in-transaction-segw" class="md-nav__link">
+    1. Generate Runtime objects in transaction SEGW
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-add-the-service-to-service-catalog" class="md-nav__link">
+    2. Add the Service to Service Catalog
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-add-system-alias-to-icf-node" class="md-nav__link">
+    3. Add system alias to ICF node
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -240,16 +269,32 @@
               
                 
                 
-                <h1 id="sap-fiori-applications-usage-control">SAP Fiori applications usage control</h1>
-<p>Fiori Apps' Usage report identifies applications started by user in from SAP Fiori Launchpad.</p>
-<h1 id="key-features">Key features</h1>
-<p>The following are the key features of Fiori Apps’ Usage Report:</p>
-<ul>
-<li>Perform audit and compliance with the scope defined for the project</li>
-<li>Detect access risks across your SAP landscape</li>
-<li>Enable functional consultants input on building roles based on SAP Fiori launchpad catalogs and groups</li>
-<li>Automate reviews of user access</li>
-</ul>
+                <h1 id="step-3-enable-odata-service">Step 3 - Enable oData service</h1>
+<p>To enable oData service complete the sub-steps described below. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When description refers to <code>Service name</code>, you need to put the service’s name of the run application. If you don't know the <code>Service name</code> please refer to the technical section of each product.</p>
+</div>
+<h3 id="1-generate-runtime-objects-in-transaction-segw">1. Generate Runtime objects in transaction SEGW</h3>
+<p>1.1. Start SAP Gui transaction <strong>SEGW</strong><br>
+1.2. Using the menu <em>Project &gt; Open</em> - Open project named as the first part of the <code>Service name</code>. Fe. if <code>Service name</code> is ZFIORITRACKER_SVR please open project called ZFIORITRACKER.</p>
+<p><img alt="" src="../res/segw.png" /></p>
+<p>1.3. Go to Change mode and choose function <strong>Generate</strong> (you will be prompted for transport and your user must be registered as developer)</p>
+<p><img alt="" src="../res/segw_gen.png" /></p>
+<h3 id="2-add-the-service-to-service-catalog">2. Add the Service to Service Catalog</h3>
+<p>2.1 Start SAP Gui transaction <strong>/n/IWFND/MAINT_SERVICE</strong></p>
+<p>2.2 Find entry with <code>Service name</code></p>
+<p>If the entry is present then move to sub-step 3 (Add system alias to ICF node), in not, please execute the following steps:</p>
+<p>2.3 Click on the <strong>Add service</strong> button.</p>
+<p>2.4 Provide System Alias: LOCAL and External Service Name as the <code>Service name</code>.</p>
+<p>2.5 Select the record with <code>Service name</code> and click on the Add selected services button.</p>
+<h3 id="3-add-system-alias-to-icf-node">3. Add system alias to ICF node</h3>
+<p>3.1 In /n/IWFND/MAINT_SERVICE, chose <code>Service name</code></p>
+<p><img alt="" src="../res/maint-service.png" /></p>
+<p>3.2 If ICF node is green and alias is present then the procedure is completed, if not, please execute the following steps:</p>
+<p>3.3 Choose <strong>Add system alias</strong>, <strong>New entry</strong> and type <code>Service name</code>_0001 (f.e. ZFIORITRACKER_SRV_0001) in <em>Service Doc. Identifier</em> and "LOCAL" in <em>SAP System Alias</em> mark <strong>*Default System</strong> check-mark.</p>
+<p>3.4 Click on <strong>ICF node</strong> button and from drop down chose <strong>Activate</strong></p>
+<p><img alt="" src="../res/maint-service-icf.png" /> </p>
                 
               
               
@@ -303,15 +348,15 @@
       
     </div>
     
-      <script src="assets/javascripts/vendor.93c04032.min.js"></script>
-      <script src="assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../../../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
-          base: ".",
+          base: "../../..",
           features: [],
           search: Object.assign({
-            worker: "assets/javascripts/worker/search.8c7e0a7e.min.js"
+            worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>

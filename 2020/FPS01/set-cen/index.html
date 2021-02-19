@@ -245,6 +245,11 @@
 <li>In your Managed system, start SAP Gui transaction <strong>ZNYPEFAMANADMIN</strong>, and start step <strong>1. Modify Central system</strong>:</li>
 </ol>
 <p>In RFC Destination field provide the RFC destination of your Central system (see <a href="../rfc/">how to prepare it</a>)</p>
+<p>Configuration table: znypefaman_sc</p>
+<p>|Key|Value|
+|SYSTEM_ID| <SID that will show in central system as source SID>|
+|TARGET_RFC|<RFC destination of Central system></p>
+<p>Empty values will result in sending to local system as a central one and source system ID will be set as local system SID.</p>
                 
               
               

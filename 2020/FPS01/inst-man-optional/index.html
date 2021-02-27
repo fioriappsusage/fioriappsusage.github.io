@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://help.fioriappsusage.org/2020/FPS01/set-cen/">
+        <link rel="canonical" href="https://help.fioriappsusage.org/2020/FPS01/inst-man-optional/">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
     
     
       
-        <title>Set the Central system - Fiori Apps' Usage Report</title>
+        <title>Optional installation steps for Plugin - Fiori Apps' Usage Report</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#set-the-central-system" class="md-skip">
+        <a href="#optional-installation-steps-for-plugin" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Set the Central system
+              Optional installation steps for Plugin
             
           </span>
         </div>
@@ -240,12 +240,8 @@
               
                 
                 
-                <h1 id="set-the-central-system">Set the Central system</h1>
-<ol>
-<li>In your Managed system, start SAP Gui transaction <strong>ZNYPEFAMANADMIN</strong>, and start step <strong>1. Modify Central system</strong>:</li>
-</ol>
-<p>In RFC Destination field provide the RFC destination of your Central system (see <a href="../rfc/">how to prepare it</a>)</p>
-<p>Configuration table: <strong>znypefaman_sc</strong></p>
+                <h1 id="optional-installation-steps-for-plugin">Optional installation steps for Plugin</h1>
+<p>You can disable the icon visible in top bar of Fiori launchpad when Plugin is active. To do so open SAP Gui transaction <strong>sm30</strong> for configuration table <strong>znypefaman_sc</strong>:</p>
 <table>
 <thead>
 <tr>
@@ -255,16 +251,11 @@
 </thead>
 <tbody>
 <tr>
-<td>SYSTEM_ID</td>
-<td>SID that will show in central system as source SID</td>
-</tr>
-<tr>
-<td>TARGET_RFC</td>
-<td>RFC destination of Central system</td>
+<td>FLP_ICON</td>
+<td>HIDE</td>
 </tr>
 </tbody>
 </table>
-<p>Empty values will result in sending to local system as a central one and source system ID will be set as local system SID.</p>
                 
               
               

@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://help.fioriappsusage.org/2020/FPS01/inst-cen/">
+        <link rel="canonical" href="https://help.fioriappsusage.org/2020/inst/step-5/">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
     
     
       
-        <title>Installation of Fiori Apps' Usage Report located on Central system - Fiori Apps' Usage Report</title>
+        <title>Step 5 - Enter the activation key - Fiori Apps' Usage Report</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#installation-of-fiori-apps-usage-report-located-on-central-system" class="md-skip">
+        <a href="#step-5-enter-the-activation-key" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Installation of Fiori Apps' Usage Report located on Central system
+              Step 5 - Enter the activation key
             
           </span>
         </div>
@@ -179,7 +179,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../main/" class="md-nav__link">
+    <a href="../../FPS01/main/" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -192,7 +192,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../inst/" class="md-nav__link">
+    <a href="../../FPS01/inst/" class="md-nav__link">
       Installation
     </a>
   </li>
@@ -229,21 +229,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#steps-for-basis-expert" class="md-nav__link">
-    Steps for Basis expert:
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -255,20 +240,25 @@
               
                 
                 
-                <h1 id="installation-of-fiori-apps-usage-report-located-on-central-system">Installation of Fiori Apps' Usage Report located on Central system</h1>
-<h2 id="steps-for-basis-expert">Steps for Basis expert:</h2>
+                <h1 id="step-5-enter-the-activation-key">Step 5 - Enter the activation key</h1>
 <ol>
-<li><a href="../../inst/step-1/">Obtain and import the transport files for release <code>2020FPS01</code></a></li>
-<li><a href="../../inst/step-2/">Activate Frontend ICF nodes</a> for node <code>ZFTAPPUSAGEREP</code></li>
-<li><a href="../../inst/step-3/">Enable backend odata service</a> for service <code>ZNYPEFACEN_SRV</code></li>
-<li><a href="../../inst/step-4/">Assign pfcg roles</a> for role <code>ZNYPE_FACEN</code></li>
-<li><a href="../../inst/step-5/">Enter the activation key</a></li>
+<li>Go to transaction <em>zfacenadmin</em> and start <em>2. Edit configuration</em></li>
+<li>In configuration table add the following entry:</li>
 </ol>
-<p>See also <a href="../inst-cen-optional/">optional steps</a>.</p>
-<p>See the screen capture of all required steps:</p>
-<div class="video-wrapper">
-  <iframe width="600" height="300" src="https://www.youtube.com/embed/4uAGrM2Hjzs" frameborder="0" allowfullscreen></iframe>
-</div>
+<table>
+<thead>
+<tr>
+<th>Config key</th>
+<th>Config value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACTIVATION_KEY</td>
+<td><em>key provided by Nype's representative</em></td>
+</tr>
+</tbody>
+</table>
                 
               
               

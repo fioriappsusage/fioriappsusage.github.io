@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://help.fioriappsusage.org/2020/FPS01/main/">
+        <link rel="canonical" href="https://help.fioriappsusage.org/2020/FPS01/conf/">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
     
     
       
-        <title>Overview - Fiori Apps' Usage Report</title>
+        <title>Configuration parameters - Fiori Apps' Usage Report</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#overview" class="md-skip">
+        <a href="#configuration-parameters" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Overview
+              Configuration parameters
             
           </span>
         </div>
@@ -177,77 +177,11 @@
       
 
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Overview
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="./" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../main/" class="md-nav__link">
       Overview
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    Installation
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#location" class="md-nav__link">
-    Location
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#available-extensions" class="md-nav__link">
-    Available extensions
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#technical-information" class="md-nav__link">
-    Technical information
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
-    Configuration
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -295,49 +229,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    Installation
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#location" class="md-nav__link">
-    Location
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#available-extensions" class="md-nav__link">
-    Available extensions
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#technical-information" class="md-nav__link">
-    Technical information
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
-    Configuration
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -349,19 +240,33 @@
               
                 
                 
-                <h1 id="overview">Overview</h1>
-<p>Report enables monitoring of SAP Fiori application usage in your SAP landscape.</p>
-<p>Each time the user starts the application in SAP Fiori launchpad Fiori Apps' Usage plugin collects start records with time stamps. Based on the records, the tool provides report on most frequently used apps:</p>
-<p><img alt="" src="../res/fa.png" /></p>
-<p>You can chose the system for which you would like to see the ranking, filter out the records from a specific functional area or specific application type.</p>
-<p>With System filter you can list app usage for a specific system.</p>
-<h2 id="installation"><a href="../inst/">Installation</a></h2>
-<h2 id="location">Location</h2>
-<p>Located on Central system</p>
-<h2 id="available-extensions">Available extensions</h2>
-<p><a href="../extend-w-core/">Fiori Tracker Core</a></p>
-<h2 id="technical-information"><a href="../tech/">Technical information</a></h2>
-<h2 id="configuration"><a href="../conf/">Configuration</a></h2>
+                <h1 id="configuration-parameters">Configuration parameters</h1>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACTIVATION_KEY</td>
+<td><em>key</em></td>
+<td>Value is provided by Nype team</td>
+</tr>
+<tr>
+<td>FLP_ICON</td>
+<td><strong>HIDE</strong></td>
+<td>When Value = HIDE the icon is not dispalyed</td>
+</tr>
+<tr>
+<td>MIN_GROUPING_INTERVAL_IN_SEC</td>
+<td><em>seconds</em></td>
+<td>Value set the minimum interval in seconds in witch the grouping of records takes place. This is to avoid excessive calculation request that could impact the system performanc</td>
+</tr>
+</tbody>
+</table>
                 
               
               
@@ -376,27 +281,6 @@
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
-        
-        
-          <a href="../inst/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Installation
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

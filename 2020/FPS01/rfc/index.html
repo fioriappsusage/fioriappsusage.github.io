@@ -241,8 +241,9 @@
                 
                 
                 <h1 id="how-to-prepare-the-rfc-destinations-for-central-system">How to prepare the RFC destinations for Central system</h1>
-<p>On each Managed system you will need RFC destinations that will run Fiori Apps' Usage Report, and serve as you Central system. Create RFC destination in your Managed system using transaction <strong>sm59</strong>. </p>
-<p>The user set in RFC destination needs to have type SYSTEM and the following authorizations:</p>
+<p>On each Managed system you need to create an RFC destination pointing to your Central system.</p>
+<p>Create RFC destination in your Managed system using transaction <strong>sm59</strong>. </p>
+<p>The user set in RFC destination should have type SYSTEM, and the following authorizations:</p>
 <p>Authorization: S_RFC</p>
 <p>ACTVT: 16</p>
 <p>RFC_TYPE: FUGR</p>

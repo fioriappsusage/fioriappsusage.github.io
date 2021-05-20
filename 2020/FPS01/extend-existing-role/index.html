@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://help.fioriappsusage.org/2020/inst/step-4/">
+        <link rel="canonical" href="https://help.fioriappsusage.org/2020/FPS01/extend-existing-role/">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
     
     
       
-        <title>Step 4 - Assign Authorization role - Fiori Apps' Usage Report</title>
+        <title>How to extend an existing role to enable Fiori Apps' Usage Plugin activation - Fiori Apps' Usage Report</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#step-4-assign-authorization-role" class="md-skip">
+        <a href="#how-to-extend-an-existing-role-to-enable-fiori-apps-usage-plugin-activation" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Step 4 - Assign Authorization role
+              How to extend an existing role to enable Fiori Apps' Usage Plugin activation
             
           </span>
         </div>
@@ -179,7 +179,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../FPS01/main/" class="md-nav__link">
+    <a href="../main/" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -192,7 +192,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../FPS01/inst/" class="md-nav__link">
+    <a href="../inst/" class="md-nav__link">
       Installation
     </a>
   </li>
@@ -229,21 +229,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-assign-role" class="md-nav__link">
-    1. Assign role
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -255,13 +240,15 @@
               
                 
                 
-                <h1 id="step-4-assign-authorization-role">Step 4 - Assign Authorization role</h1>
-<h3 id="1-assign-role">1. Assign role</h3>
-<p>Go to transaction <em>su01</em> and assign <code>Role</code> to the user who should access the installed product.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>If you would like to use your own role please <a href="../../FPS01/extend-existing-role/">see how to create or extend it</a></p>
-</div>
+                <h1 id="how-to-extend-an-existing-role-to-enable-fiori-apps-usage-plugin-activation">How to extend an existing role to enable Fiori Apps' Usage Plugin activation</h1>
+<ol>
+<li>Edit your the role that you want to extend in SAP Gui transaction <strong>PFCG</strong></li>
+<li>Go to <em>Menu</em> tab</li>
+<li>Expand the dropdown for the button named <em>Transaction</em></li>
+<li>From dropdown list choose "SAP Fiori Tile Catalog*</li>
+<li>In the field <em>Catalog ID</em> put <code>ZCNYPEFAMAN</code></li>
+<li>Save and generate the role</li>
+</ol>
                 
               
               

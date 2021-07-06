@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://help.fioriappsusage.org/2020/FPS01/conf/">
+        <link rel="canonical" href="https://help.fioriappsusage.org/2020/FPS01/conf-cen/">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
     
     
       
-        <title>Apps' Usage Report - Configuration parameters - Fiori Apps' Usage Report</title>
+        <title>Apps' Usage Report - Central part's configuration parameters - Fiori Apps' Usage Report</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#apps-usage-report-configuration-parameters" class="md-skip">
+        <a href="#apps-usage-report-central-parts-configuration-parameters" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Apps' Usage Report - Configuration parameters
+              Apps' Usage Report - Central part's configuration parameters
             
           </span>
         </div>
@@ -240,12 +240,36 @@
               
                 
                 
-                <h1 id="apps-usage-report-configuration-parameters">Apps' Usage Report - Configuration parameters</h1>
-<p>Apps' Usage Report component has two parts: Central (located on central system) and Managed (located on managed systems). Each part has a configuration table on its system.</p>
-<ol>
-<li><a href="../conf-cen/">Configure Central part</a></li>
-<li><a href="../conf-man/">Configure Managed part</a></li>
-</ol>
+                <h1 id="apps-usage-report-central-parts-configuration-parameters">Apps' Usage Report - Central part's configuration parameters</h1>
+<p>To change Central part configuration start the transaction <strong>zfacenadmin</strong> and press button labeled: <strong>2. Edit configuration</strong>. This will open a maintenance view for table ZNYPEFACEN_SC:</p>
+<p><a href="../res/zfacenadmin.png"><img alt="" src="../res/zfacenadmin.png" /></a></p>
+<p>The table below descries all available parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACTIVATION_KEY</td>
+<td><em>key</em></td>
+<td>Value is provided by Nype team</td>
+</tr>
+<tr>
+<td>MIN_GROUPING_INTERVAL_IN_SEC</td>
+<td><em>seconds</em></td>
+<td>The value sets the minimum interval in seconds in which the grouping of records takes place. This setting is to avoid excessive calculation requests that could impact the system's performance.</td>
+</tr>
+<tr>
+<td>INCOMP_HIDE</td>
+<td><strong>TRUE</strong></td>
+<td>When set to TRUE the version compatibility warning will not show</td>
+</tr>
+</tbody>
+</table>
                 
               
               

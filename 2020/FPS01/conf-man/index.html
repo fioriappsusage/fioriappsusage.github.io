@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://help.fioriappsusage.org/2020/FPS01/conf/">
+        <link rel="canonical" href="https://help.fioriappsusage.org/2020/FPS01/conf-man/">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
     
     
       
-        <title>Apps' Usage Report - Configuration parameters - Fiori Apps' Usage Report</title>
+        <title>Apps' Usage Report - Managed part's configuration parameters - Fiori Apps' Usage Report</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#apps-usage-report-configuration-parameters" class="md-skip">
+        <a href="#apps-usage-report-managed-parts-configuration-parameters" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Apps' Usage Report - Configuration parameters
+              Apps' Usage Report - Managed part's configuration parameters
             
           </span>
         </div>
@@ -240,12 +240,36 @@
               
                 
                 
-                <h1 id="apps-usage-report-configuration-parameters">Apps' Usage Report - Configuration parameters</h1>
-<p>Apps' Usage Report component has two parts: Central (located on central system) and Managed (located on managed systems). Each part has a configuration table on its system.</p>
-<ol>
-<li><a href="../conf-cen/">Configure Central part</a></li>
-<li><a href="../conf-man/">Configure Managed part</a></li>
-</ol>
+                <h1 id="apps-usage-report-managed-parts-configuration-parameters">Apps' Usage Report - Managed part's configuration parameters</h1>
+<p>To change Central part configuration start the transaction <strong>zfamanadmin</strong> and press button labeled: <strong>2. Edit configuration</strong>. This will open a maintenance view for table ZNYPEFACEN_SC:</p>
+<p><a href="../res/zfamanadmin.png"><img alt="" src="../res/zfamanadmin.png" /></a></p>
+<p>The table below descries all available parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FLP_ICON</td>
+<td><strong>HIDE</strong></td>
+<td>When Value is set to HIDE the SAP Fiori launchpad icon for the plugin is not displayed</td>
+</tr>
+<tr>
+<td>SYSTEM_ID</td>
+<td><strong>ID of a Central system</strong></td>
+<td>This setting enables overwriting the real system ID to one set by the parameter</td>
+</tr>
+<tr>
+<td>TARGET_RFC</td>
+<td><strong>RFC name</strong></td>
+<td>RFC destination name of the Central system</td>
+</tr>
+</tbody>
+</table>
                 
               
               

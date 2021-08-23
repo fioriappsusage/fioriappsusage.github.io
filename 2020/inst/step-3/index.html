@@ -16,7 +16,7 @@
     
     
       
-        <title>Step 3 - Enable oData service - Fiori Apps' Usage Report</title>
+        <title>Step 3 - Enable the oData service - Fiori Apps' Usage Report</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#step-3-enable-odata-service" class="md-skip">
+        <a href="#step-3-enable-the-odata-service" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Step 3 - Enable oData service
+              Step 3 - Enable the oData service
             
           </span>
         </div>
@@ -269,32 +269,29 @@
               
                 
                 
-                <h1 id="step-3-enable-odata-service">Step 3 - Enable oData service</h1>
-<p>To enable oData service, complete the sub-steps described below. </p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>When description refers to <code>Service name</code>, you need to put the service’s name of the run application. If you don't know the <code>Service name</code> please refer to the technical section of each product.</p>
-</div>
+                <h1 id="step-3-enable-the-odata-service">Step 3 - Enable the oData service</h1>
+<p>To enable the oData service, complete the sub-steps described below. </p>
 <h3 id="1-generate-runtime-objects-in-transaction-segw">1. Generate Runtime objects in transaction SEGW</h3>
 <p>1.1. Start SAP Gui transaction <strong>SEGW</strong><br>
-1.2. Using the menu <em>Project &gt; Open</em> - Open project named as the first part of the <code>Service name</code>. Fe. if <code>Service name</code> is ZFIORITRACKER_SVR please open project called ZFIORITRACKER.</p>
-<p><a href="../res/segw_gen.png"><img alt="" src="../res/segw.png" /></a></p>
-<p>1.3. Go to Change mode and choose function <strong>Generate</strong> (you will be prompted for transport and your user must be registered as developer)</p>
+1.2. Using the menu <em>Project &gt; Open</em> - Open project named <strong>ZNYPEFACEN</strong>. </p>
+<p><a href="../res/segw.png"><img alt="" src="../res/segw.png" /></a></p>
+<p>1.3. Go to Change mode and choose function <strong>Generate</strong> (the system will prompt you for the transport, and you need to register your user as a developer)</p>
 <p><a href="../res/segw_gen.png"><img alt="" src="../res/segw_gen.png" /></a></p>
 <h3 id="2-add-the-service-to-service-catalog">2. Add the Service to Service Catalog</h3>
 <p>2.1 Start SAP Gui transaction <strong>/n/IWFND/MAINT_SERVICE</strong></p>
-<p>2.2 Find entry with <code>Service name</code></p>
+<p>2.2 Find entry with Service name: <strong>ZNYPEFACEN_SRV</strong></p>
 <p>If the entry is present, then move to sub-step 3 (Add system alias to ICF node), if not, please execute the following steps:</p>
 <p>2.3 Click on the <strong>Add service</strong> button.</p>
-<p>2.4 Provide System Alias: LOCAL and External Service Name as the <code>Service name</code>.</p>
-<p>2.5 Select the record with <code>Service name</code> and click on the Add selected services button.</p>
+<p>2.4 Provide System Alias: LOCAL and External Service Name as the <strong>ZNYPEFACEN_SRV</strong>.</p>
+<p>2.5 Select the record with <strong>ZNYPEFACEN_SRV</strong> and click on the Add selected services button.</p>
 <h3 id="3-add-system-alias-to-icf-node">3. Add system alias to ICF node</h3>
-<p>3.1 In /n/IWFND/MAINT_SERVICE, chose <code>Service name</code></p>
+<p>3.1 In /n/IWFND/MAINT_SERVICE, chose <strong>ZNYPEFACEN_SRV</strong></p>
 <p><a href="../res/maint-service.png"><img alt="" src="../res/maint-service.png" /></a></p>
-<p>3.2 If ICF node is green and alias is present, then the procedure is completed, if not, please execute the following steps:</p>
-<p>3.3 Choose <strong>Add system alias</strong>, <strong>New entry</strong> and type <code>Service name</code>_0001 (f.e. ZFIORITRACKER_SRV_0001) in <em>Service Doc. Identifier</em> and "LOCAL" in <em>SAP System Alias</em> mark <strong>*Default System</strong> check-mark.</p>
+<p>3.2 If ICF node is green and alias is present, then the procedure is completed if not, please execute the following steps:</p>
+<p>3.3 Choose <strong>Add system alias</strong>, <strong>New entry</strong> and type <strong>  </strong> in <em>Service Doc. Identifier</em> and "LOCAL" in <em>SAP System Alias</em> mark <strong>Default System</strong> check-mark.</p>
+<p><a href="../res/maint-service-alias.png"><img alt="" src="../res/maint-service-alias.png" /></a></p>
 <p>3.4 Click on <strong>ICF node</strong> button and from dropdown chose <strong>Activate</strong></p>
-<p><a href="../res/maint-service-icf.png"><img alt="" src="../res/maint-service-icf.png" /></a></p>
+<p><a href="../res/maint-service-icfn.png"><img alt="" src="../res/maint-service-icfn.png" /></a></p>
 <p>3.5 Click on <strong>Load Metadata</strong> button</p>
 <p><a href="../res/maint-service-meta.png"><img alt="" src="../res/maint-service-meta.png" /></a> </p>
                 

@@ -232,12 +232,14 @@
       
 
 
+  
+
 
   
-  <li class="md-nav__item md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Features
@@ -261,6 +263,28 @@
     <a href="../recexp/" class="md-nav__link">
       Records export
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Apps identification
+    </a>
+    
   </li>
 
         
@@ -325,8 +349,9 @@
                 
                 
                 <h1 id="apps-identification">Apps identification</h1>
-<p>Applications on usage report are identified by matching semantic object and action with a corresponding To-be record in Fiori Tacker Core. If you want to have an App ID listed please maintain that App ID for your sematic object action pair in FT Applications app from <a href="">Fiori Tracker Core</a>.</p>
-<p>For SAP standard apps for App ID use the "App ID" field from SAP Fiori Apps Reference Library. For example "F3140" (https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F3140')/S20OP). For custom apps the BSP name. fFor example ZFTCA.  </p>
+<p>Usage report identifies applications names by matching their semantic object and action with corresponding "To-be" records. "To-be" records come from Fiori Tacker Core.</p>
+<p>If you want to have an App ID listed please maintain that App ID for your semantic object action pair in FT Applications app from <a href="https://help.fioritracker.org/V2020/core/SPS03/main/">Fiori Tracker Core</a>.</p>
+<p>For SAP standard apps for App ID use the "App ID" field from SAP Fiori Apps Reference Library. For example "F3140" (https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F3140')/S20OP). For custom apps, the BSP name. For example ZFTCA.  </p>
                 
               
               
@@ -341,6 +366,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../recexp/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Records export
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../inst/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Installation
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

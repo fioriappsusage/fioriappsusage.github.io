@@ -11,17 +11,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://help.fioriappsusage.org/2020/features/</loc>
+         <loc>https://help.fioriappsusage.org/2020/learn-more/</loc>
          <lastmod>2022-04-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://help.fioriappsusage.org/2020/ui5lib-options/</loc>
-         <lastmod>2022-04-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://help.fioriappsusage.org/2020/use-cases/</loc>
          <lastmod>2022-04-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -57,6 +52,11 @@
     </url>
     <url>
          <loc>https://help.fioriappsusage.org/2020/FPS01/extend-w-core/</loc>
+         <lastmod>2022-04-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://help.fioriappsusage.org/2020/FPS01/features/</loc>
          <lastmod>2022-04-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -126,7 +126,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://help.fioriappsusage.org/2020/FPS01/deployment/prod/</loc>
+         <loc>https://help.fioriappsusage.org/2020/FPS01/use-cases/</loc>
+         <lastmod>2022-04-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://help.fioriappsusage.org/2020/FPS01/deployment/deployment/</loc>
          <lastmod>2022-04-14</lastmod>
          <changefreq>daily</changefreq>
     </url>

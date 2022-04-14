@@ -197,38 +197,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../FPS01/main/" class="md-nav__link">
-        Overview
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../use-cases/" class="md-nav__link">
-        Use cases
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../features/" class="md-nav__link">
-        Features
+      <a href="../../learn-more/" class="md-nav__link">
+        Learn more
       </a>
     </li>
   
@@ -244,21 +214,6 @@
     <li class="md-nav__item">
       <a href="../../FPS01/inst/" class="md-nav__link">
         Installation
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../FPS01/conf/" class="md-nav__link">
-        Configuration
       </a>
     </li>
   
@@ -298,6 +253,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-open-the-list-of-all-frontend-services" class="md-nav__link">
+    1. Open the list of all frontend services
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-activate-the-services" class="md-nav__link">
+    2. Activate the services
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -310,13 +287,13 @@
                 
                 
                 <h1 id="step-2-activate-the-frontend-icf-nodes">Step 2 - Activate the Frontend ICF nodes</h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>To activate the needed Frontend ICF nodes complete the sub-steps described below for each node.</p>
-</div>
-<ol>
-<li>Run SAP Gui <strong>SICF</strong> transaction, choose <strong>Execute</strong> and in the tree of services for path Path: <code>/default_host/sap/bc/ui5_ui5/sap/</code>, use right click on service and choose <strong>Activate</strong> for each <code>ICF node</code> you and to activate <br/></li>
-</ol>
+<h3 id="1-open-the-list-of-all-frontend-services">1. Open the list of all frontend services</h3>
+<p>From SAP Gui run the transaction <strong>SICF</strong> and choose <strong>Execute</strong></p>
+<h3 id="2-activate-the-services">2. Activate the services</h3>
+<p>In the tree of services for path Path: <code>/default_host/sap/bc/ui5_ui5/sap/</code>, use right click and choose <strong>Activate</strong> for each of teh following services:</p>
+<p><code>zftappusagerep</code></p>
+<p><code>zfaadmin</code></p>
+<p><code>zftappusageplug</code> </p>
 <p><img alt="" src="../res/sicf-activate.png" /></p>
                 
               

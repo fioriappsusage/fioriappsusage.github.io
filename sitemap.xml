@@ -196,6 +196,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://help.fioriappsusage.org/2020/inst/solman/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://help.fioriappsusage.org/2020/inst/step-1/</loc>
          <lastmod>2022-06-30</lastmod>
          <changefreq>daily</changefreq>

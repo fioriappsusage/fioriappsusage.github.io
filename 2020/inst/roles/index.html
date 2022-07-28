@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://help.fioriappsusage.org/2020/inst/step-4/">
+        <link rel="canonical" href="https://help.fioriappsusage.org/2020/inst/roles/">
       
       <link rel="icon" href="../../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.4">
     
     
       
-        <title>Step 4 - Assign Authorization roles - Fiori Apps' Usage Report</title>
+        <title>Authorizations roles summary - Fiori Apps' Usage Report</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#step-4-assign-authorization-roles" class="md-skip">
+        <a href="#authorizations-roles-summary" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Step 4 - Assign Authorization roles
+              Authorizations roles summary
             
           </span>
         </div>
@@ -279,18 +279,49 @@
               
                 
                 
-                <h1 id="step-4-assign-authorization-roles">Step 4 - Assign Authorization roles</h1>
+                <h1 id="authorizations-roles-summary">Authorizations roles summary</h1>
 <ol>
-<li>
-<p>Go to SAP Gui transaction <strong>su01</strong> </p>
-</li>
-<li>
-<p>Assign <code>ZNYPE_FAMAN</code> role to Fori Apps' Report users</p>
-</li>
-<li>
-<p>Assign <code>ZNYPE_FACEN</code> to all the users that you want to monitor for apps usage</p>
-</li>
+<li>Fiori Apps Usage Report Manager roles</li>
 </ol>
+<table>
+<thead>
+<tr>
+<th>Role name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ZNYPE_FACEN</td>
+<td>Fiori Apps' Usage Manager - The role lets the user monitor apps' usage</td>
+</tr>
+<tr>
+<td>ZNYPE_FT</td>
+<td>Fiori Tracker Core Manager - The role to manage the list with "To-be" application details (optional)</td>
+</tr>
+<tr>
+<td>ZNYPE_ASISCEN</td>
+<td>"As-is" Main API Manager - The role to manage data synchronization for "As-is" application details (optional)</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Fiori Apps Usage Report User roles</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Role name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ZNYPE_FAMAN</td>
+<td>Fori Apps' Report users - assigning this role enables usage logging for the user</td>
+</tr>
+</tbody>
+</table>
                 
               
               

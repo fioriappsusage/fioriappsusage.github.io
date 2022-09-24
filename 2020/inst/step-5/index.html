@@ -280,11 +280,9 @@
                 
                 
                 <h1 id="step-5-set-the-parameters-for-activation-key-log-mode-and-target-system">Step 5 - Set the parameters for activation key, log mode and target system</h1>
-<ol>
-<li>Go to SAP Gui transaction <strong>ZFACENADMIN</strong> and press the button labeled: <em>2. Edit configuration</em>. Pressing the button will open a maintenance view for table ZNYPEFACEN_SC:</li>
-</ol>
-<p><a href="../res/fa-conf.png"><img alt="" src="../res/fa-conf.png" /></a>
-2. In the configuration table add the following entries:</p>
+<p>1 . Go to SAP Gui transaction <strong>ZFACENADMIN</strong> and press the button labeled: <em>2. Edit configuration</em>. Pressing the button will open a maintenance view for table ZNYPEFACEN_SC:</p>
+<p><a href="../res/fa-conf.png"><img alt="" src="../res/fa-conf.png" /></a></p>
+<p>2 . In the configuration table add the following entries:</p>
 <table>
 <thead>
 <tr>
@@ -295,7 +293,7 @@
 <tbody>
 <tr>
 <td>ACTIVATION_KEY</td>
-<td><em>key provided by Nype's representative</em></td>
+<td><em>Report key provided by Nype's representative</em></td>
 </tr>
 <tr>
 <td>LOGMODE</td>
@@ -303,11 +301,26 @@
 </tr>
 </tbody>
 </table>
-<p>See also: <a href="../installation-number/">How to get the SAP system installation number</a></p>
-<ol>
-<li>Go to SAP Gui tansaction <strong>ZFAMANADMIN</strong>. Entering transaction will initialize the plugin configuration.</li>
-</ol>
+<p>3 . Go to SAP Gui transaction <strong>ZFAMANADMIN</strong>. Entering transaction will initialize the plugin configuration.</p>
 <p><a href="../res/faman-conf.png"><img alt="" src="../res/faman-conf.png" /></a></p>
+<p>4 . Press the button labeled: 1. Edit configuration. Pressing the button will open a maintenance view for table ZNYPEFAMAN_SC:</p>
+<p><a href="../res/faman-conf-tab.png"><img alt="" src="../res/faman-conf-tab.png" /></a></p>
+<p>5 . In the configuration table add the entry for Plugin activation key:</p>
+<table>
+<thead>
+<tr>
+<th>Config key</th>
+<th>Config value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACTIVATION_KEY</td>
+<td><em>Plugin key provided by Nype's representative</em></td>
+</tr>
+</tbody>
+</table>
+<p>See also: <a href="../installation-number/">How to get the SAP system installation number</a></p>
                 
               
               

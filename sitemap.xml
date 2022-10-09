@@ -156,6 +156,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://help.fioriappsusage.org/2020/FPS01/use-cases/learning-about-unused/</loc>
+         <lastmod>2022-10-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://help.fioriappsusage.org/2020/FPS01/use-cases/out-of-scope/</loc>
          <lastmod>2022-10-09</lastmod>
          <changefreq>daily</changefreq>

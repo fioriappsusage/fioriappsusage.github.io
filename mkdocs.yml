@@ -2,11 +2,35 @@ site_name: Fiori App Usage Report
 site_description: Speed up project timelines with app insights.
 site_url: https://help.fioriappsusage.org
 nav:
-    - Learn more: 2020/learn-more.md
-    - Installation: 2020/FPS01/inst.md
-    - FAQ: 2020/faq.md
-    - Case studies: 2020/cases.md
-    - Impressum: 2020/impressum.md
+  - Learn more: 2020/learn-more.md
+  - Installation: 2020/FPS01/inst.md
+  - FAQ: 2020/faq.md
+  - Case studies: 2020/cases.md
+  - Impressum: 2020/impressum.md
+
+# Explicitly confirm there is awareness of files not in nav
+not_in_nav: |
+  /index.md
+  /2020/*/
+  /2020/diagram.md
+  /2020/get-for-free.md
+  /2020/success-karma.md
+  /2020/success-mining-company.md
+  /2020/success-sibelco.md
+  /2020/success-stories.md
+  /2020/ui5lib-options.md
+
+# Together with --strict flag it allows to crash CI if an error occurs and prevent shipping broken sites
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+    absolute_links: warn  # If needed change to 'relative_to_docs'
+  links:
+    not_found: warn
+    anchors: warn
+    absolute_links: warn  # If needed change to 'relative_to_docs'
+    unrecognized_links: warn
 theme: 
   name: 'material'
   favicon: 'assets/images/favicon.ico'

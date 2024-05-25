@@ -1,6 +1,6 @@
 # Enable apps identification and project scope control
 
-You can extend Fiori Apps' Usage report features by installing free component called [Fiori Tracker Core]({{ prod.fa.compatibleCoreLink }})
+You can extend Fiori Apps' Usage report features by installing free component called [Fiori Tracker Core]({{ prod.fa.R2020FPS01.compatibleCoreLink }})
 
 Installing Fiori Tracker Core will add the following features to Fiori Apps' Usage Report:
 

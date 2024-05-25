@@ -1,4 +1,5 @@
 site_name: Fiori App Usage Report
+site_description: Speed up project timelines with app insights.
 site_url: https://help.fioriappsusage.org
 nav:
     - Learn more: 2020/learn-more.md
@@ -13,9 +14,9 @@ theme:
   custom_dir: overrides
 plugins:
   - social:
-      cards_layout: default/invert
+      enabled: !ENV [CI, false]
       cards_layout_options:
-        description: Speed up project timelines with app insights.
+        background_color: "#0d0d72"  # same color as the corner in the logo.png
   - macros
   - search
 copyright: Copyright &copy; 2016 - 2024 Nype

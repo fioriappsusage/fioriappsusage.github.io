@@ -1,6 +1,6 @@
 # How to prepare the RFC destinations for Managed systems
 
-You will need RFC destinations for each system that you plan to manage with Fiori Apps' Usage Report apps. Please set RFC destinations In your Central system using transaction *sm59*. Each RFC destination should point to one of your managed systems.
+You will need RFC destinations for each system that you plan to manage with Fiori App Usage Report apps. Please set RFC destinations In your Central system using transaction *sm59*. Each RFC destination should point to one of your managed systems.
 
 The user set in RFC destination needs to have type SYSTEM and the following authorizations:
 

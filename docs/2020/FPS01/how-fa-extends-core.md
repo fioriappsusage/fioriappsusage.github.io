@@ -1,4 +1,4 @@
-# How Fiori Apps' Usage extends functions of Fiori Tracker Core?
+# How Fiori App Usage extends functions of Fiori Tracker Core?
 
 Fiori Apps Usage comes with optional function that enables Fiori Tracker Core's "Fiori Apps: Apps usage relation".
 

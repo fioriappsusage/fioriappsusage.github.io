@@ -1,4 +1,4 @@
-# Fiori Apps' Usage Report architecture
+# Fiori App Usage Report architecture
 
 [![](res/arch.png)](res/arch.png)
 

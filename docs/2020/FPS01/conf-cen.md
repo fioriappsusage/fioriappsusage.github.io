@@ -1,4 +1,4 @@
-# Apps' Usage Report - Central part's configuration parameters
+# App Usage Report - Central part's configuration parameters
 
 To change Central part configuration start the transaction **zfacenadmin** and press button labeled: **2. Edit configuration**. This will open a maintenance view for table ZNYPEFACEN_SC:
 

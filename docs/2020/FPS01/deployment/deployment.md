@@ -1,4 +1,4 @@
-# Fiori Apps' Usage Report deployment
+# Fiori App Usage Report deployment
 
 [![](res/deployment.png)](res/deployment.png)
 

@@ -1,4 +1,4 @@
-# How to extend an existing role to enable Fiori Apps' Usage Plugin activation
+# How to extend an existing role to enable Fiori App Usage Plugin activation
 
 1. Edit your the role that you want to extend in SAP Gui transaction **PFCG**
 2. Go to *Menu* tab

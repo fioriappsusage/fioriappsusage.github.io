@@ -1,4 +1,4 @@
-# Installation of Fiori Apps' Usage Report 
+# Installation of Fiori App Usage Report 
 
 ## Steps for Basis expert:
 

@@ -36,6 +36,8 @@ theme:
   favicon: 'assets/images/favicon.ico'
   logo: 'assets/images/logo.png'
   custom_dir: overrides
+  features:
+    - content.tooltips
 plugins:
   - social:
       enabled: !ENV [CI, false]

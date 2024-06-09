@@ -16,9 +16,11 @@ Speed up project timelines with app insights.
 # Key features
 
 -   Convenient, all SAP systems-wide report on SAP Fiori app usage 
+-   [Role testing tracking](https://fioriroletesting.com) **new!**
 -   Filtering on systems, functional area, application type (standard, custom, extended apps, etc)
 -   Linkage with an exact [application name and its details](2020/FPS01/app-ids.md)
 -   [All records access or export](2020/FPS01/recexp.md) for your favorite analytical tool
+
 
 # Trusted by our customers
 

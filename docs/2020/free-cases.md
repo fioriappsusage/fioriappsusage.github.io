@@ -10,6 +10,6 @@ Check out our clients' use cases for inspiration:
 
 [https://fioritracker.org/satisfied-intrests-and-roles/](https://fioritracker.org/satisfied-intrests-and-roles/)
 
-[https://help.fioriappsusage.org/2020/FPS01/use-cases/](https://fioritracker.org/satisfied-intrests-and-roles/)
+[https://help.fioriappsusage.org/2020/FPS01/use-cases/](https://help.fioriappsusage.org/2020/FPS01/use-cases/)
 
 [https://fioritracker.org/usecases/](https://fioritracker.org/usecases/)

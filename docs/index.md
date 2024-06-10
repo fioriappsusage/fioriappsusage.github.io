@@ -6,7 +6,7 @@ description: Speed up project timelines with app insights.
 Speed up project timelines with app insights.
 
 # Addressed challenges
-
+- Repeated issues from incomplete role testing
 - Low investment returns due to overlooked app potential – [unused applications](2020/FPS01/use-cases/learning-about-unused.md)
 - Inadequate project team allocation due to unclear priorities  – [prioritizing based on affected users](2020/FPS01/use-cases/priority-setting.md)
 - Lack of visibility into testing progress and status – [input on testing progress](2020/FPS01/use-cases/testing.md)
@@ -15,8 +15,8 @@ Speed up project timelines with app insights.
 
 # Key features
 
+-   [Role testing monitoring](https://fioriroletesting.com) :material-alert-decagram:{ .pulse title="Get an offer" }
 -   Convenient, all SAP systems-wide report on SAP Fiori app usage 
--   [Role testing tracking](https://fioriroletesting.com) :material-alert-decagram:{ .pulse title="Get an offer" }
 -   Filtering on systems, functional area, application type (standard, custom, extended apps, etc)
 -   Linkage with an exact [application name and its details](2020/FPS01/app-ids.md)
 -   [All records access or export](2020/FPS01/recexp.md) for your favorite analytical tool

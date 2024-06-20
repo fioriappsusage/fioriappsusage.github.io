@@ -2,7 +2,7 @@ site_name: Fiori App Usage Report
 site_description: Speed up project timelines with app insights.
 site_url: https://help.fioriappsusage.org
 nav:
-  - Learn more: 2020/learn-more.md
+  - Explore Details: 2020/fiori-apps-usage-details.md
   - Installation: 2020/FPS01/inst.md
   - FAQ: 2020/faq.md
   - Case studies: 2020/cases.md

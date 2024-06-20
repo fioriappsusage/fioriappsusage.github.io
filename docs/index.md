@@ -33,12 +33,14 @@ Speed up project timelines with app insights.
     **Application Service Owner global ERP**<br>
     **Global mining and minerals processing company**
 
-# Compatibility
-
-Compatible with SAP S/4HANA releases from 1610 to 2023.
-
 # Offer
 
 [Get an offer :fontawesome-solid-paper-plane:](mailto:fau@npe.cm?subject=Fiori App Usage: Offer request){ .md-button .md-button--primary }
 
 [Get it for free](2020/get-for-free.md){ .md-button .md-button--primary }
+
+# Compatibility
+
+Compatible with SAP S/4HANA releases from 1610 to 2023.
+
+

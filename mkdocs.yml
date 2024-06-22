@@ -48,9 +48,21 @@ plugins:
         background_color: "#0d0d72"  # same color as the corner in the logo.png
   - macros
   - search
+  - minify:
+      enabled: !ENV [CI, false]
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
+      cache_safe: true
+      js_files:
+        - assets/javascripts/extra.js
+      css_files:
+        - assets/stylesheets/extra.css
 copyright: Copyright &copy; 2016 - 2024 Nype
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
 extra_javascript:
   - assets/javascripts/extra.js
 markdown_extensions:

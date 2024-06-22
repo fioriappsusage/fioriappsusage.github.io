@@ -35,7 +35,9 @@ Speed up project timelines with app insights.
 
 # Offer
 
-[Get an offer :fontawesome-solid-paper-plane:](mailto:fau@npe.cm?subject=Fiori App Usage: Offer request){ .md-button .md-button--primary }
+Please contact us to get an offer tailored to your needs.
+
+[Get an offer](contact.md){ .md-button .md-button--primary }
 
 [Get it for free](2020/get-for-free.md){ .md-button .md-button--primary }
 

@@ -11,6 +11,8 @@ nav:
 # Explicitly confirm there is awareness of files not in nav
 not_in_nav: |
   /index.md
+  /contact.md
+  /contact-success.md
   /2020/*/
   /2020/diagram.md
   /2020/get-for-free.md
@@ -49,6 +51,8 @@ plugins:
 copyright: Copyright &copy; 2016 - 2024 Nype
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - assets/javascripts/extra.js
 markdown_extensions:
   - admonition
   - attr_list

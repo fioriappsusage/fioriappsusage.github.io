@@ -2,8 +2,8 @@
 
 1. Go to SAP Gui transaction **su01** 
 
-2. Assign `ZNYPE_FAMAN` role to all the users you want to monitor 
+2. Assign `ZNYPE_FAMEM` role to all the users you want to monitor 
 
-3. Assign `ZNYPE_FACEN` to users who should run the report
+3. Assign `ZNYPE_FAMAN` to users that should have access to report
 
 

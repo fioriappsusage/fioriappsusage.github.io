@@ -39,7 +39,7 @@ Please contact us to get an offer tailored to your needs.
 
 [Get an offer](contact.md){ .md-button .md-button--primary }
 
-[Get it for free](2020/get-for-free.md){ .md-button .md-button--primary }
+[Get it for free](contact.md?free=true){ .md-button .md-button--primary }
 
 # Compatibility
 

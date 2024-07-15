@@ -5,15 +5,53 @@ description: Speed up project timelines with app insights.
 # Log apps usage
 Speed up project timelines with app insights.
 
-# Addressed challenges
-- Repeated issues from incomplete role testing
-- Low investment returns due to overlooked app potential – [unused applications](2020/FPS01/use-cases/learning-about-unused.md)
-- Inadequate project team allocation due to unclear priorities  – [prioritizing based on affected users](2020/FPS01/use-cases/priority-setting.md)
-- Lack of visibility into testing progress and status – [input on testing progress](2020/FPS01/use-cases/testing.md)
-- Controlling project scope creep – [out of scope applications](2020/FPS01/use-cases/out-of-scope.md)
+## Addressed challenges
 
+<div class="grid cards" markdown>
 
-# Key features
+-   :material-repeat-variant:{ .lg .middle } __Recurring problems__
+
+    ---
+
+    Same issues from incomplete role testing
+    
+    [:octicons-arrow-right-24: Test tracking](https://fioriroletesting.com)
+
+-   :fontawesome-solid-star-half:{ .lg .middle } __Unused applications__
+
+    ---
+
+    Low investment returns due to overlooked app potential
+
+    [:octicons-arrow-right-24: Boost your returns](2020/FPS01/use-cases/learning-about-unused.md)
+
+-   :material-format-list-checkbox:{ .lg .middle } __Mixed focus__
+
+    ---
+
+    Inadequate project team allocation due to unclear priorities
+
+    [:octicons-arrow-right-24: Target critical needs](2020/FPS01/use-cases/priority-setting.md)
+
+-   :material-ghost-outline:{ .lg .middle } __Unknown testing status__
+
+    ---
+
+    Lack of visibility into testing progress and status
+
+    [:octicons-arrow-right-24: Test progress tracking](2020/FPS01/use-cases/testing.md)
+
+-   :material-cash-fast:{ .lg .middle } __Project scope creep__
+
+    ---
+
+    Controlling out of scope applications
+
+    [:octicons-arrow-right-24: Detect scope changes ](2020/FPS01/use-cases/out-of-scope.md)
+
+</div>
+
+## Key features
 
 -   [Role testing monitoring](https://fioriroletesting.com) :material-alert-decagram:{ .pulse title="Get an offer" }
 -   Convenient, all SAP systems-wide report on SAP Fiori app usage 
@@ -22,7 +60,7 @@ Speed up project timelines with app insights.
 -   [All records access or export](2020/FPS01/recexp.md) for your favorite analytical tool
 
 
-# Trusted by our customers
+## Trusted by our customers
 
 !!! quote " "
 
@@ -33,7 +71,7 @@ Speed up project timelines with app insights.
     **Application Service Owner global ERP**<br>
     **Global mining and minerals processing company**
 
-# Offer
+## Offer
 
 Please contact us to get an offer tailored to your needs.
 
@@ -41,7 +79,7 @@ Please contact us to get an offer tailored to your needs.
 
 [Get it for free](contact.md?free=true){ .md-button .md-button--primary }
 
-# Compatibility
+## Compatibility
 
 Compatible with SAP S/4HANA releases from 1610 to 2023.
 

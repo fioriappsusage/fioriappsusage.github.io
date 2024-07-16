@@ -1,3 +1,14 @@
+/* Custom font */
+@font-face {
+    font-family: "EtelkaLight";
+    font-display: swap;
+    src: url("https://npe.cm/assets/fonts/EtelkaLight.otf");
+}
+
+:root {
+    --md-text-font: "EtelkaLight"; 
+}
+
 :root > * {
     --md-primary-fg-color: #011742;
     --md-accent-fg-color: #07bfc7;

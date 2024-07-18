@@ -83,10 +83,8 @@ extra:
     provider: google
     property: G-BNGGXFFT1W
   social:
-    - icon: fontawesome/solid/building
+    - icon: ext/nype-logo
       link: https://npe.cm/?ref=fioriappsusage
-    - icon: fontawesome/brands/github
-      link: https://github.com/fioriappsusage
     - icon: fontawesome/brands/linkedin-in
       link: https://www.linkedin.com/showcase/apps-usage-for-sap-fiori-launchpad
     - icon: fontawesome/brands/x-twitter

@@ -35,12 +35,16 @@ validation:
     absolute_links: warn  # If needed change to 'relative_to_docs'
     unrecognized_links: warn
 theme: 
-  name: 'material'
+  name: nype
   favicon: 'assets/images/favicon.ico'
   logo: 'assets/images/logo.png'
   custom_dir: overrides
   features:
     - content.tooltips
+  nype_config:
+    js:
+      contact_form_action_hex: 6148523063484d364c79396d62334a74637935316269317a6447463061574d75593239744c325a76636d317a4c325a6c4d6d51774e5745315a6d4d795a6d4d3559574a6a595755305a4751794d7a6b7a4d54497a4e5456684e5751305954686d4d32553d
+      contact_form_email_hex: 5047456761484a6c5a6a306962574670624852764f6d5a6864554275634755755932302f63335669616d566a6444314761573979615342426348416756584e685a325536494334754c69492b5a6d4631514735775a53356a625477765954343d
 plugins:
   - social:
       enabled: !ENV [CI, false]
@@ -51,15 +55,12 @@ plugins:
   - minify:
       enabled: !ENV [CI, false]
       minify_html: true
-      minify_js: true
-      minify_css: true
+      minify_js: false
+      minify_css: false
       htmlmin_opts:
           remove_comments: true
       cache_safe: true
-      js_files:
-        - assets/javascripts/extra.js
-      css_files:
-        - assets/stylesheets/extra.css
+  - sap_icons
 copyright: Copyright &copy; 2016 - 2024 Nype
 extra_css:
   - assets/stylesheets/extra.css

@@ -1,16 +1,19 @@
 ---
 title: Contact Us
 description: Get in touch and let's work together.
+nype_config:
+  js:
+    contact_form: true
 ---
 # Contact Form
 
 !!! info
     Read more about what is needed [to get Fiori App Usage for free](2020/get-for-free.md).
 
-You can contact <span id="extShowEmail">`Show Hidden E-mail`</span> directly or fill out the form below.
+You can contact <span class="nype-code-button nype-show-email">`Show Hidden E-mail`</span> directly or fill out the form below.
 
-<div id="extFormWrapper">
-    <form method="POST">
+<div class="nype-form-wrapper">
+    <form class="nype-form" method="POST">
         <label for="fullname">Full Name:</label>
         <input 
             class="md-input" 
@@ -49,7 +52,6 @@ You can contact <span id="extShowEmail">`Show Hidden E-mail`</span> directly or 
         ></textarea>
         <button 
             class="md-button md-button--primary"
-            id="extSubmitForm"
             type="submit"
         >Submit</button>
     </form>

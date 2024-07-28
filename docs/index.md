@@ -53,7 +53,7 @@ Speed up project timelines with app insights.
 
 ## Key features
 
--   [Role testing monitoring](https://fioriroletesting.com) :material-alert-decagram:{ .pulse title="Get an offer" }
+-   [Role testing monitoring](https://fioriroletesting.com) :material-alert-decagram:{ .nype-pulse title="NEW! Get an offer!" }
 -   Convenient, all SAP systems-wide report on SAP Fiori app usage 
 -   Filtering on systems, functional area, application type (standard, custom, extended apps, etc)
 -   Linkage with an exact [application name and its details](2020/FPS01/app-ids.md)

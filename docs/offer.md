@@ -2,8 +2,7 @@
 title: Get offer
 description: Get in touch and let's work together.
 nype_config:
-  js:
-    contact_form: true
+  js_include: contact_form_action_hex contact_form_email_hex
 ---
 # Offer Form
 

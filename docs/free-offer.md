@@ -3,8 +3,8 @@ title: Get free offer
 description: Get in touch and let's work together.
 nype_config:
   js:
-    contact_form: true
-    contact_form_free_subject: 'Fiori App Usage: Get for free request'
+    contact_form_subject: 'Fiori App Usage: Get for free request'
+  js_include: contact_form_action_hex contact_form_email_hex
 ---
 # Free Offer Form
 

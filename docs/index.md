@@ -75,9 +75,9 @@ Speed up project timelines with app insights.
 
 Please contact us to get an offer tailored to your needs.
 
-[Get an offer](contact.md){ .md-button .md-button--primary }
+[Get an offer](offer.md){ .md-button .md-button--primary }
 
-[Get it for free](contact.md?free=true){ .md-button .md-button--primary }
+[Get it for free](free-offer.md){ .md-button .md-button--primary }
 
 ## Compatibility
 

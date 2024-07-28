@@ -1,0 +1,1 @@
+// Previous content moved to the mkdocs-nype theme

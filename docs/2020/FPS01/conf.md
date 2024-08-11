@@ -1,6 +1,7 @@
 # Fiori App Usage Report - Configuration parameters
 
 Fiori App Usage has two components: 
+
 1. Fiori App Usage Report
 2. Fiori App Usage Plugin 
 

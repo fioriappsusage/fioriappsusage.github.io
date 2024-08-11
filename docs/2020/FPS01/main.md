@@ -16,6 +16,5 @@ All usage records are available for download in an [Excel format](recexp.md). Do
 
 ## [Configuration](conf.md)
 
-## Available extensions
-[Fiori Tracker Core](extend-w-core.md)
+
 

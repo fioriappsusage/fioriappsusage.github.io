@@ -5,7 +5,7 @@
 To start tracking application usage information on a chosen system, you need to execute the following steps on that system:
 
 1. [Obtain and import `Fiori App Usage Report` and `Fiori App Usage Plugin` transport files](../inst/step-1.md)
-2. [Activate `zftappusagerep`, `zfaadmin` and `zftappusageplug` frontend ICF nodes](../inst/step-2.md)
+2. [Activate `zftappusagerep`, `zfaadmin`, `zftappusageplug`, `zfaul` frontend ICF nodes](../inst/step-2.md)
 3. [Enable `ZNYPEFACEN_SRV` and `ZNYPEFAMAN_SRV` backend odata services](../inst/step-3.md)
 4. [Assign `ZNYPE_FAMAN` and `ZNYPE_FAMEM` pfcg roles](../inst/step-4.md) 
 5. [Set the parameters for activation key and log mode](../inst/step-5.md)

@@ -21,6 +21,6 @@ At a glance:
 - Upgrade preparation aid
 - Key apps and potential for deprecation identification
 - Simplified analysis
-- User actions audit help
+- User actions audit 
 - Role optimization
 

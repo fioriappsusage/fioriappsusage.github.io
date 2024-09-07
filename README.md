@@ -3,17 +3,9 @@ Speed up project timelines with app insights.
 
 ## Addressed challenges
 
--   :arrows_counterclockwise: __Recurring problems__
+:arrows_counterclockwise: __Recurring problems__    Same issues from incomplete role testing [:arrow_right: Test tracking](https://fioriroletesting.com)
 
-    ---
-
-    Same issues from incomplete role testing
-    
-    [:arrow_right: Test tracking](https://fioriroletesting.com)
-
-
-
--   :arrows_counterclockwise: __Unused applications__
+:arrows_counterclockwise: __Unused applications__
 
     ---
 

@@ -33,13 +33,13 @@ You can contact <span class="nype-code-button nype-show-email">`Show Hidden E-ma
             required
             type="text"
         >
-        <label for="email">E-mail:</label>
+        <label for="email">Company E-mail:</label>
         <input
             autocomplete="email"
             class="md-input"
             id="email"
             name="email"
-            placeholder="Input your e-mail"
+            placeholder="Input your comapny e-mail"
             required
             type="email"
         >

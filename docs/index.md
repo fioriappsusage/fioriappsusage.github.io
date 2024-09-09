@@ -1,9 +1,9 @@
 ---
 title: SAP Fiori usage statistics
-description: Speed up project timelines with app insights.
+description: Speed up project timelines with app usage insights.
 ---
 # Log app usage
-Speed up project timelines with app insights.
+Speed up project timelines with app usage insights.
 
 ## Addressed challenges
 

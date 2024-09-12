@@ -10,7 +10,7 @@ You can filter out the records from a chosen system, specific functional area, o
 
 All usage records are available for download in an [Excel format](recexp.md). Downloaded data can be further analyzed or visualized in a separate application.
 
-## [Use cases](use-cases.md)
+## [Use cases](use-cases/index.md)
 
 ## [Installation](inst.md)
 

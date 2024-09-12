@@ -23,7 +23,7 @@ Speed up project timelines with app usage insights.
 
     Low investment returns due to overlooked app potential
 
-    [:octicons-arrow-right-24: Boost your returns](2020/FPS01/use-cases/learning-about-unused.md)
+    [:octicons-arrow-right-24: Boost your returns](2020/FPS01/use-cases/posts/learning-about-unused.md)
 
 -   :material-format-list-checkbox:{ .lg .middle } __Mixed focus__
 
@@ -31,7 +31,7 @@ Speed up project timelines with app usage insights.
 
     Inadequate project team allocation due to unclear priorities
 
-    [:octicons-arrow-right-24: Target critical needs](2020/FPS01/use-cases/priority-setting.md)
+    [:octicons-arrow-right-24: Target critical needs](2020/FPS01/use-cases/posts/priority-setting.md)
 
 -   :material-ghost-outline:{ .lg .middle } __Unknown testing status__
 
@@ -39,7 +39,7 @@ Speed up project timelines with app usage insights.
 
     Lack of visibility into testing progress and status
 
-    [:octicons-arrow-right-24: Test progress tracking](2020/FPS01/use-cases/testing.md)
+    [:octicons-arrow-right-24: Test progress tracking](2020/FPS01/use-cases/posts/testing.md)
 
 -   :material-cash-fast:{ .lg .middle } __Project scope creep__
 
@@ -47,7 +47,7 @@ Speed up project timelines with app usage insights.
 
     Controlling out of scope applications
 
-    [:octicons-arrow-right-24: Detect scope changes ](2020/FPS01/use-cases/out-of-scope.md)
+    [:octicons-arrow-right-24: Detect scope changes ](2020/FPS01/use-cases/posts/out-of-scope.md)
 
 </div>
 

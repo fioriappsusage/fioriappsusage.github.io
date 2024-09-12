@@ -1,4 +1,14 @@
-# Making the most of your system by learning about unused applications
+---
+date: 2024-09-01
+slug: learning-about-unused
+categories:
+  - General
+---
+# Learning about unused applications
+
+Making the most of your system by identifying unused applications
+
+<!-- more -->
 
 Your business has had SAP S/4HANA for some time already with, let’s say, 100 SAP Fiori applications configured. There is a good chance that only 50 of those apps are in use, and you are probably not fully leveraging the system. 
 

@@ -13,3 +13,8 @@
     --md-primary-fg-color: #011742;
     --md-accent-fg-color: #07bfc7;
 }
+
+/* Small blog post excerpts */
+.md-post--excerpt { 
+    margin-bottom: 0rem;
+}

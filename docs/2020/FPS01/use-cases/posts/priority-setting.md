@@ -1,4 +1,14 @@
-# Priority setting for development and support
+---
+date: 2024-07-01
+slug: priority-setting
+categories:
+  - General
+---
+# Priority setting
+
+Understand what should be the best use of SAP support team time
+
+<!-- more -->
 
 Usage information is a valuable input for setting priorities for your development and support teams. With user statistic you can take informed decisions on:
 

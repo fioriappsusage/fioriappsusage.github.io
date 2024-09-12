@@ -1,4 +1,14 @@
+---
+date: 2024-06-01
+slug: testing
+categories:
+  - General
+---
 # Testing progress
+
+Determining the status of testing process
+
+<!-- more -->
 
 ## App testing 
 

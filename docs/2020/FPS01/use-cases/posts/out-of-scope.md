@@ -1,8 +1,10 @@
 ---
+title: Applications out of scope
+description: With Fiori App Usage Report you can list the apps started by users but are not part of the project scope
+categories: 
+- Scope management
 date: 2024-05-01
 slug: out-of-scope
-categories:
-  - General
 ---
 # Apps out of scope
 

@@ -1,8 +1,10 @@
 ---
+title: Understand the importance of the app
+description: Collected usage data gives the ranking of the most popular applications
+categories: 
+- Scope management
 date: 2024-08-01
 slug: understand-apps-value
-categories:
-  - General
 ---
 # Understanding apps value
 

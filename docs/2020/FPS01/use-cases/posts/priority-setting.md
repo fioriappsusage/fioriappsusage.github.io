@@ -1,8 +1,10 @@
 ---
+title: Priority setting for development and support
+description: Usage information is a valuable input for setting priorities for your development and support teams
+categories: 
+- Support
 date: 2024-07-01
 slug: priority-setting
-categories:
-  - General
 ---
 # Priority setting
 

@@ -1,9 +1,12 @@
 ---
 date: 2024-06-01
 slug: testing
-categories:
-  - General
+title: App testing
+description: Report on whether any user has run the app indicates how the testing is progressing
+categories: 
+- Testing
 ---
+
 # Testing progress
 
 Determining the status of testing process

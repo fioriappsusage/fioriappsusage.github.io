@@ -5,6 +5,8 @@ categories:
   - General
 title: Building SAP Fiori Roles
 description: Usage Stats shape user roles to fit actual needs
+categories: 
+- Scope management
 ---
 # Building roles
 

@@ -1,8 +1,10 @@
 ---
+title: Maximize your system by exploring unused apps
+description: There is a good chance that only fraction of project apps is in use
+categories: 
+- Scope management
 date: 2024-09-01
 slug: learning-about-unused
-categories:
-  - General
 ---
 # Learning about unused applications
 

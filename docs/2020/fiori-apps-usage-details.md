@@ -10,8 +10,6 @@ You can filter out the records from a chosen system, specific functional area, o
 
 All usage records are available for download in an [Excel format](FPS01/recexp.md). Downloaded data can be further analyzed or visualized in a separate application.
 
-## [Use cases](FPS01/use-cases/index.md)
-
 ## [Features](FPS01/features.md)
 
 ## [Architecture](arch/architecture.md)

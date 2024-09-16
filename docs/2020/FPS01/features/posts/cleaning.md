@@ -1,4 +1,12 @@
-# Cleaning old usage records
+---
+date: 2024-07-01
+slug: cleaning
+---
+# Cleaning tool
+
+Old usage records cleaning tool
+
+<!-- more -->
 
 The Fiori App Usage Report comes with old usage records cleaning tool. The cleaning tool is available form Administration tool started with transaction **ZFACENADMIN**. To lunch the tool start the transaction and chose function *3. Clean old usage records*:
 

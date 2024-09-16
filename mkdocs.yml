@@ -9,6 +9,8 @@ nav:
   - Impressum: 2020/impressum.md
   - Use cases:
     - 2020/FPS01/use-cases/index.md
+  - Features:
+    - 2020/FPS01/features/index.md
 
 # Explicitly confirm there is awareness of files not in nav
 not_in_nav: |
@@ -56,6 +58,12 @@ plugins:
       post_url_format: "{slug}"
       post_readtime: false
       pagination: false
+  - blog:
+      archive: false
+      blog_dir: 2020/FPS01/features
+      post_url_format: "{slug}"
+      post_readtime: false
+      pagination: false
   - social:
       enabled: !ENV [CI, false]
       cards_layout_options:
@@ -73,6 +81,8 @@ plugins:
   - sap_icons
   - only_blog_nav:
       hook_blog_dir: 2020/FPS01/use-cases
+  - only_blog_nav:
+      hook_blog_dir: 2020/FPS01/features
   - similar_blog_posts:
       title: See also
       hook_blog_dir: 2020/FPS01/use-cases

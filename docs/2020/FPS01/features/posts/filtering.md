@@ -1,4 +1,12 @@
+---
+date: 2024-06-01
+slug: filtering
+---
 # Filtering
+
+Filtering on functional area, application type and if application is within the scope
+
+<!-- more -->
 
 Filtering on "Area" - the report will get a column named "Area" enabling you to filter entries from your project's functional areas
 

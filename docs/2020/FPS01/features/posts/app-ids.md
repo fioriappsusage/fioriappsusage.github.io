@@ -1,4 +1,12 @@
+---
+date: 2024-08-01
+slug: app-ids
+---
 # Apps identification
+
+Apps identification
+
+<!-- more -->
 
 Usage report identifies applications names by matching their semantic object and action with corresponding ["To-be" records](to-be-records.md). The "To-be" records come from Fiori Tacker Core.
 

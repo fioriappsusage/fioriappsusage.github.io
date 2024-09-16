@@ -1,4 +1,12 @@
+---
+date: 2024-09-01
+slug: recexp
+---
 # Records export
+
+Raw usage records export in Excel format
+
+<!-- more -->
 
 Fiori Apps Usage Report offers raw usage records export in Excel format. Export function lets you prepare statistic reports and data visualizations with your favorite analytical tool.
 

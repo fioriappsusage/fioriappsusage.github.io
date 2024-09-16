@@ -9,5 +9,3 @@ Shows for each app how many time is was started
 <!-- more -->
 
 Fiori Tracker App has relation "Fiori Apps: Apps usage relation".
-
-Shows for each app how many time is was started.

@@ -4,56 +4,12 @@ description: Get in touch and let's work together.
 nype_config:
   js:
     contact_form_subject: 'Fiori App Usage: Get for free request'
-  js_include: contact_form_action_hex contact_form_email_hex
+  js_include: contact_form_action_hex
 ---
 # Free Offer Form
 
-!!! info
-    Read more about what is needed [to get Fiori App Usage for free](2020/get-for-free.md).
+Get our product for free by allowing us to feature your company name as a Fiori App Usage customer. 
 
-You can contact <span class="nype-code-button nype-show-email">`Show Hidden E-mail`</span> directly or fill out the form below.
+Limited slots available!
 
-<div class="nype-form-wrapper">
-    <form class="nype-form" method="POST">
-        <label for="fullname">Full Name:</label>
-        <input 
-            class="md-input" 
-            id="fullname"
-            name="fullname"
-            placeholder="Input your name"
-            required
-            type="text"
-        >
-        <label for="companyname">Company Name:</label>
-        <input 
-            class="md-input" 
-            id="companyname"
-            name="companyname"
-            placeholder="Input your company name"
-            required
-            type="text"
-        >
-        <label for="email">Company E-mail:</label>
-        <input
-            autocomplete="email"
-            class="md-input"
-            id="email"
-            name="email"
-            placeholder="Input your comapny e-mail"
-            required
-            type="email"
-        >
-        <label for="message">What can we do for you?:</label>
-        <textarea
-            class="md-input"
-            id="message"
-            name="message"
-            placeholder="Input your message"
-            required
-        ></textarea>
-        <button 
-            class="md-button md-button--primary"
-            type="submit"
-        >Submit</button>
-    </form>
-</div>
+{% include 'contact_form.md' %}

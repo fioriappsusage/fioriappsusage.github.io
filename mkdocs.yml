@@ -68,7 +68,8 @@ plugins:
       enabled: !ENV [CI, false]
       cards_layout_options:
         background_color: "#0d0d72"  # same color as the corner in the logo.png
-  - macros
+  - macros:
+      on_error_fail: !ENV [CI, false]
   - search
   - minify:
       enabled: !ENV [CI, false]

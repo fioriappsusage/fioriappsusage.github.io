@@ -16,6 +16,9 @@ All usage records are available for download in an [Excel format](FPS01/features
 
 ## [Configuration](FPS01/conf.md)
 
+## [Installation](FPS01/inst.md)
+
+## [FAQ](faq.md)
 
 
 

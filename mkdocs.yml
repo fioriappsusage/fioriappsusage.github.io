@@ -6,10 +6,6 @@ nav:
   - Use cases:
     - 2020/FPS01/use-cases/index.md
   - Explore Details: 2020/fiori-apps-usage-details.md
-  - Features:
-    - 2020/FPS01/features/index.md
-  - Installation: 2020/FPS01/inst.md
-  - FAQ: 2020/faq.md
   - Impressum: 2020/impressum.md
 
 # Explicitly confirm there is awareness of files not in nav

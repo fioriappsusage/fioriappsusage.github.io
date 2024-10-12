@@ -80,10 +80,6 @@ plugins:
           remove_comments: true
       cache_safe: true
   - sap_icons
-  - only_blog_nav:
-      hook_blog_dir: 2020/FPS01/use-cases
-  - only_blog_nav:
-      hook_blog_dir: 2020/FPS01/features
   - similar_blog_posts:
       title: See also
       hook_blog_dir: 2020/FPS01/use-cases

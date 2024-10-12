@@ -8,6 +8,7 @@ nav:
   - Explore Details: 
     - 2020/fiori-apps-usage-details.md
     - Features: 2020/FPS01/features/index.md
+    - Architecture: 2020/arch/architecture.md
   - Impressum: 2020/impressum.md
 
 # Explicitly confirm there is awareness of files not in nav

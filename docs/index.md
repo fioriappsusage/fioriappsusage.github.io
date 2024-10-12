@@ -5,7 +5,32 @@ nype_config:
   container_css: content-only justify wide-content
 ---
 # Log app usage
-Speed up project timelines with app usage insights.
+Speed up project timelines with SAP S/4HANA app usage insights.
+
+[![Fiori Tracker Tiles](2020/res/fau-ss.png)](2020/res/fau-ss.png)
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));" markdown>
+<div class="grid cards" markdown>
+
+## Trusted by our customers
+
+!!! quote " "
+
+    The Fiori App Usage report, part of the Fiori Tracker Suite, has helped us tremendously in the preparation for our upgrade from S4HANA 1809 with a standalone Gateway to S4HANA 2022 Embedded Gateway. Clearly showing which apps were the most important and which could be deprecated, reducing the scope/workload for the upgrade team.  This analysis alone is an almost impossible task without Fiori Tracker, while SAP captures such analytics for every user, it is cryptic and difficult/impossible to mine. The Fiori App Usage Report makes this very clear and easy.
+
+    The report has also helped us, more than once, to audit which user had executed -unwillingly- a certain wrong action, enabling us to further optimize the roles associated to the App. The Fiori Tracker Suite is filling a huge gap left by SAP to make such usage statistics visible to the customer.
+
+    **Application Service Owner global ERP**<br>
+    **Global mining and minerals processing company**
+
+</div>
+
+<div style="padding: 0 1em; display: flex; align-items: center;" markdown>
+
+[Get an offer](offer.md){ .md-button .md-button--primary } [Get it for free](free-offer.md){ .md-button .md-button--primary }
+
+</div>
+</div>
 
 ## Addressed challenges
 
@@ -60,33 +85,5 @@ Speed up project timelines with app usage insights.
 -   Filtering on systems, functional area, application type (standard, custom, extended apps, etc)
 -   Linkage with an exact [application name and its details](2020/FPS01/features/posts/app-ids.md)
 -   [All records access or export](2020/FPS01/features/posts/recexp.md) for your favorite analytical tool
-
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));" markdown>
-<div class="grid cards" markdown>
-
-## Trusted by our customers
-
-!!! quote " "
-
-    The Fiori App Usage report, part of the Fiori Tracker Suite, has helped us tremendously in the preparation for our upgrade from S4HANA 1809 with a standalone Gateway to S4HANA 2022 Embedded Gateway. Clearly showing which apps were the most important and which could be deprecated, reducing the scope/workload for the upgrade team.  This analysis alone is an almost impossible task without Fiori Tracker, while SAP captures such analytics for every user, it is cryptic and difficult/impossible to mine. The Fiori App Usage Report makes this very clear and easy.
-
-    The report has also helped us, more than once, to audit which user had executed -unwillingly- a certain wrong action, enabling us to further optimize the roles associated to the App. The Fiori Tracker Suite is filling a huge gap left by SAP to make such usage statistics visible to the customer.
-
-    **Application Service Owner global ERP**<br>
-    **Global mining and minerals processing company**
-
-</div>
-
-<div style="padding: 0 1em; display: flex; align-items: center;" markdown>
-
-[Get an offer](offer.md){ .md-button .md-button--primary } [Get it for free](free-offer.md){ .md-button .md-button--primary }
-
-</div>
-</div>
-
-## Compatibility
-
-Compatible with SAP S/4HANA releases from 1610 to 2023.
 
 

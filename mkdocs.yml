@@ -47,7 +47,6 @@ theme:
   custom_dir: overrides
   features:
     - content.tooltips
-    - navigation.indexes
     - navigation.tabs
   nype_config:
     contact_form_action_hex: 6148523063484d364c79396d62334a74637935316269317a6447463061574d75593239744c325a76636d317a4c325a6c4d6d51774e5745315a6d4d795a6d4d3559574a6a595755305a4751794d7a6b7a4d54497a4e5456684e5751305954686d4d32553d

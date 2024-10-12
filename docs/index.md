@@ -62,6 +62,9 @@ Speed up project timelines with app usage insights.
 -   [All records access or export](2020/FPS01/features/posts/recexp.md) for your favorite analytical tool
 
 
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));" markdown>
+<div class="grid cards" markdown>
+
 ## Trusted by our customers
 
 !!! quote " "
@@ -73,13 +76,14 @@ Speed up project timelines with app usage insights.
     **Application Service Owner global ERP**<br>
     **Global mining and minerals processing company**
 
-## Offer
+</div>
 
-Please contact us to get an offer tailored to your needs.
+<div style="padding: 0 1em; display: flex; align-items: center;" markdown>
 
-[Get an offer](offer.md){ .md-button .md-button--primary }
+[Get an offer](offer.md){ .md-button .md-button--primary } [Get it for free](free-offer.md){ .md-button .md-button--primary }
 
-[Get it for free](free-offer.md){ .md-button .md-button--primary }
+</div>
+</div>
 
 ## Compatibility
 

@@ -1,6 +1,8 @@
 ---
 title: SAP Fiori usage statistics
 description: Speed up project timelines with app usage insights.
+nype_config:
+  container_css: content-only justify wide-content
 ---
 # Log app usage
 Speed up project timelines with app usage insights.

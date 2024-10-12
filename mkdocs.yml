@@ -5,7 +5,9 @@ nav:
   - Case studies: 2020/cases.md
   - Use cases:
     - 2020/FPS01/use-cases/index.md
-  - Explore Details: 2020/fiori-apps-usage-details.md
+  - Explore Details: 
+    - 2020/fiori-apps-usage-details.md
+    - Features: 2020/FPS01/features/index.md
   - Impressum: 2020/impressum.md
 
 # Explicitly confirm there is awareness of files not in nav
@@ -24,7 +26,7 @@ not_in_nav: |
   /2020/success-stories.md
   /2020/ui5lib-options.md
   /2020/free-cases.md
-  /faq.md
+  /2020/faq.md
 
 # Together with --strict flag it allows to crash CI if an error occurs and prevent shipping broken sites
 validation:

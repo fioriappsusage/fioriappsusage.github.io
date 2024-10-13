@@ -39,42 +39,41 @@ Speed up project timelines with SAP S/4HANA app usage insights.
 -   :material-repeat-variant:{ .lg .middle } __Recurring problems__
 
     ---
-
     Same issues from incomplete role testing
     
     [:octicons-arrow-right-24: Test tracking](https://fioriroletesting.com)
 
+
 -   :fontawesome-solid-star-half:{ .lg .middle } __Unused applications__
 
     ---
-
     Low investment returns due to overlooked app potential
 
-    [:octicons-arrow-right-24: Boost your returns](2020/FPS01/use-cases/posts/learning-about-unused.md)
+    [:octicons-arrow-right-24: Boost your returns](https://fioritracker.org/usecases/learning-about-unused)
+
 
 -   :material-format-list-checkbox:{ .lg .middle } __Mixed focus__
 
     ---
-
     Inadequate project team allocation due to unclear priorities
 
-    [:octicons-arrow-right-24: Target critical needs](2020/FPS01/use-cases/posts/priority-setting.md)
+    [:octicons-arrow-right-24: Target critical needs](https://fioritracker.org/usecases/priority-setting)
+
 
 -   :material-ghost-outline:{ .lg .middle } __Unknown testing status__
-
     ---
 
     Lack of visibility into testing progress and status
 
-    [:octicons-arrow-right-24: Test progress tracking](2020/FPS01/use-cases/posts/testing.md)
+    [:octicons-arrow-right-24: Test progress tracking](https://fioritracker.org/usecases/testing)
+
 
 -   :material-cash-fast:{ .lg .middle } __Project scope creep__
 
     ---
-
     Controlling out of scope applications
 
-    [:octicons-arrow-right-24: Detect scope changes ](2020/FPS01/use-cases/posts/out-of-scope.md)
+    [:octicons-arrow-right-24: Detect scope changes ](https://fioritracker.org/usecases/out-of-scope-apps)
 
 </div>
 

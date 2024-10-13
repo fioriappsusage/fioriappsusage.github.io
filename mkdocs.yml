@@ -83,6 +83,13 @@ plugins:
   - similar_blog_posts:
       title: See also
       hook_blog_dir: 2020/FPS01/use-cases
+  - server_redirects:
+      raw_redirects:
+        /2020/FPS01/recexp/?$: /2020/FPS01/features/recexp/
+        /2020/FPS01/app-ids/?$: /2020/FPS01/features/app-ids/
+        /2020/FPS01/cleaning/?$: /2020/FPS01/features/cleaning/
+        /2020/FPS01/filtering/?$: /2020/FPS01/features/filtering/
+        /2020/FPS01/ft-core-relation-app-usage/?$: /2020/FPS01/features/ft-core-relation-app-usage/
 copyright: Copyright &copy; 2016 - 2024 Nype
 extra_css:
   - assets/stylesheets/extra.css

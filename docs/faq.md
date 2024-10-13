@@ -2,11 +2,11 @@
 
 ### 1. What are the prerequisites/minimal requirements for installation?
 
-The minimal requirement is any SAP system with GAP Gateway (software component SAP_GWFND) on SAP NetWeaver version at least 7.52 ([see details](inst/min.md))
+The minimal requirement is any SAP system with GAP Gateway (software component SAP_GWFND) on SAP NetWeaver version at least 7.52 ([see details](2020/inst/min.md))
 
 ### 2. Will the Fiori App Usage Report release 2020 work on my S/4 HANA system that is on the different releases (1610, 1709, 1809, 1909)?
 
-Yes. Fiori App Usage Report release numbering is independent of SAP release numbering. Fiori App Usage Report release 2020 is compatible with SAP S/4 HANA releases from 1610 to 2022. Refer [Minimal requirements](inst/min.md) for more details.
+Yes. Fiori App Usage Report release numbering is independent of SAP release numbering. Fiori App Usage Report release 2020 is compatible with SAP S/4 HANA releases from 1610 to 2022. Refer [Minimal requirements](2020/inst/min.md) for more details.
 
 ### 3. What details do you need for troubleshooting the issues?
 
@@ -20,23 +20,23 @@ The data is collected when the Fiori App' Usage Plugin is active for the user, s
 
 ### 5. What is the architecture of the solution?
 
-Please find the details in [the Architecture section](arch/architecture.md).
+Please find the details in [the Architecture section](2020/arch/architecture.md).
 
 ### 6. How is the solution deployed?
 
-Fiori App Usage Report is deployed by importing the transports. Please find the details in [deployment section](FPS01/deployment/deployment.md).
+Fiori App Usage Report is deployed by importing the transports. Please find the details in [deployment section](2020/FPS01/deployment/deployment.md).
 
 ### 7. How much time does it take to implement the Fiori App Usage and start collecting the usage records?
 
-You can set up and start using Fiori App Usage in a couple of hours. The descriptions in [the installation section](FPS01/inst.md) will guide you through all the required steps. Should you encounter any problem, you can reach Fiori App Usage team on the support Slack channel or ask the team for a screen-sharing session.
+You can set up and start using Fiori App Usage in a couple of hours. The descriptions in [the installation section](2020/FPS01/inst.md) will guide you through all the required steps. Should you encounter any problem, you can reach Fiori App Usage team on the support Slack channel or ask the team for a screen-sharing session.
 
 ### 8. Can I use my roles instead of the ones provided in Fiori App Usage transport requests?
 
-Yes. [See how to create or extend an existing role](FPS01/extend-existing-role.md).
+Yes. [See how to create or extend an existing role](2020/FPS01/extend-existing-role.md).
 
 ### 9. How to get the SAP system installation number?
 
-Please check the [detailed description](inst/installation-number.md).
+Please check the [detailed description](2020/inst/installation-number.md).
 
 ### 10. Should we install Fiori App Usage Report on SAP Solution Manager?
 
@@ -48,11 +48,11 @@ We can arrange a call to demo Fiori App Usage Report on our systems. Please let 
 
 ### 12. What are all roles needed for manager and user?
 
-Please check the [summary](inst/roles.md).
+Please check the [summary](2020/inst/roles.md).
 
 ### 13. What is the Fiori App Usage impact on applications and system performance?
 
-Fiori App usage impacts overall system performance as little as possible. See the details in [Fiori App Usage performance influence section](FPS01/performance.md).
+Fiori App usage impacts overall system performance as little as possible. See the details in [Fiori App Usage performance influence section](2020/FPS01/performance.md).
 
 
 ### 14. Why should we use a third-party solution instead of waiting for the same function delivered by SAP out of the box?

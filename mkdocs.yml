@@ -9,6 +9,9 @@ nav:
     - 2020/fiori-apps-usage-details.md
     - Features: 2020/FPS01/features/index.md
     - Architecture: 2020/arch/architecture.md
+    - Configuration: 2020/FPS01/conf.md
+    - Installation: 2020/FPS01/inst.md
+    - FAQ: faq.md
   - Impressum: 2020/impressum.md
 
 # Explicitly confirm there is awareness of files not in nav

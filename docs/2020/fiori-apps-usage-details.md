@@ -1,3 +1,7 @@
+---
+title: Explore details
+description: Learn more about Fiori App Usage Report
+---
 # Learn more about Fiori App Usage Report
 
 The report enables monitoring of SAP Fiori application usage in your SAP landscape.
@@ -10,15 +14,6 @@ You can filter out the records from a chosen system, specific functional area, o
 
 All usage records are available for download in an [Excel format](FPS01/features/posts/recexp.md). Downloaded data can be further analyzed or visualized in a separate application.
 
-## [Features](FPS01/features/index.md)
-
-## [Architecture](arch/architecture.md)
-
-## [Configuration](FPS01/conf.md)
-
-## [Installation](FPS01/inst.md)
-
-## [FAQ](faq.md)
 
 
 

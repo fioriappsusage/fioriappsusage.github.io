@@ -16,7 +16,7 @@ Screenshot from respective SAP Gateway system from SAP Gui menu: System->Status 
 
 ### 4. Is there any way that I can pull the historical data?
 
-The data is collected when the Fiori App' Usage Plugin is active for the user, so there is no way to pull the historical data. 
+The data is collected when the Fiori App Usage Plugin is active for the user, so there is no way to pull the historical data. 
 
 ### 5. What is the architecture of the solution?
 
@@ -57,5 +57,5 @@ Fiori App usage impacts overall system performance as little as possible. See th
 
 ### 14. Why should we use a third-party solution instead of waiting for the same function delivered by SAP out of the box?
 
-Any solution to the application usage reporting problem will require identifying the applications covered by the project. As the Fiori App Usage Report's key aspect is the identification, you can start tracking the app's usage with the Fiori App Usage report and leverage the same app identification records if the standard out-of-the-box solution will be developed.
+Any solution to the application usage reporting problem will require identifying the applications covered by the project. As the Fiori App Usage Report's key aspect is the identification, you can start tracking the app usage with the Fiori App Usage Report and leverage the same app identification records if the standard out-of-the-box solution will be developed.
 

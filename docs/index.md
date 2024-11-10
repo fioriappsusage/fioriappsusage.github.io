@@ -36,6 +36,14 @@ Speed up project timelines with SAP S/4HANA app usage insights.
 
 <div class="grid cards" markdown>
 
+-   :material-repeat-variant:{ .lg .middle } __Optimizing SAP licenses__
+
+    ---
+    Matching SAP user licenses to real user needs
+    
+    [:octicons-arrow-right-24: Cut SAP license costs ](https://fioritracker.org/usecases/Matching-SAP-user-licenses-to-real-user-needs/)
+
+
 -   :material-repeat-variant:{ .lg .middle } __Recurring problems__
 
     ---

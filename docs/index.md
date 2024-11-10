@@ -36,20 +36,12 @@ Speed up project timelines with SAP S/4HANA app usage insights.
 
 <div class="grid cards" markdown>
 
--   :material-trending-down:{ .lg .middle } __Optimizing SAP licenses__
+-   :material-scissors-cutting:{ .lg .middle } __Optimizing SAP licenses__
 
     ---
     Matching SAP user licenses to real user needs
     
     [:octicons-arrow-right-24: Cut SAP license costs ](https://fioritracker.org/usecases/Matching-SAP-user-licenses-to-real-user-needs/)
-
-
--   :material-repeat-variant:{ .lg .middle } __Recurring problems__
-
-    ---
-    Same issues from incomplete role testing
-    
-    [:octicons-arrow-right-24: Test tracking](https://fioriroletesting.com)
 
 
 -   :fontawesome-solid-star-half:{ .lg .middle } __Unused applications__
@@ -67,8 +59,16 @@ Speed up project timelines with SAP S/4HANA app usage insights.
 
     [:octicons-arrow-right-24: Target critical needs](https://fioritracker.org/usecases/priority-setting)
 
+-   :material-repeat-variant:{ .lg .middle } __Recurring problems__
+
+    ---
+    Same issues from incomplete role testing
+    
+    [:octicons-arrow-right-24: Test tracking](https://fioriroletesting.com)
+
 
 -   :material-ghost-outline:{ .lg .middle } __Unknown testing status__
+
     ---
 
     Lack of visibility into testing progress and status

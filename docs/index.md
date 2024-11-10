@@ -36,7 +36,7 @@ Speed up project timelines with SAP S/4HANA app usage insights.
 
 <div class="grid cards" markdown>
 
--   :material-repeat-variant:{ .lg .middle } __Optimizing SAP licenses__
+-   :material-trending-down:{ .lg .middle } __Optimizing SAP licenses__
 
     ---
     Matching SAP user licenses to real user needs

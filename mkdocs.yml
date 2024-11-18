@@ -10,7 +10,7 @@ nav:
     - Features: 2020/FPS01/features/index.md
     - Architecture: 2020/arch/architecture.md
     - Configuration: 2020/FPS01/conf.md
-    - Installation: 2020/FPS01/inst.md
+    - Installation: https://fioritracker.org/inst/
     - FAQ: faq.md
   - Impressum: 2020/impressum.md
 

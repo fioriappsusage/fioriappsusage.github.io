@@ -12,8 +12,6 @@ All usage records are available for download in an [Excel format](features/posts
 
 ## [Use cases](use-cases/index.md)
 
-## [Installation](inst.md)
-
 ## [Configuration](conf.md)
 
 

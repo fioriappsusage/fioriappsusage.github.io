@@ -12,7 +12,7 @@ nav:
     - Configuration: 2020/FPS01/conf.md
     - Installation: https://fioritracker.org/inst/
     - FAQ: faq.md
-  - Impressum: 2020/impressum.md
+  - Impressum: impressum.md
 
 # Explicitly confirm there is awareness of files not in nav
 not_in_nav: |
@@ -85,6 +85,7 @@ plugins:
         /2020/FPS01/filtering/?$: /2020/FPS01/features/filtering/
         /2020/FPS01/ft-core-relation-app-usage/?$: /2020/FPS01/features/ft-core-relation-app-usage/
         /2020/inst(.*): https://fioritracker.org/inst$1
+        /2020/impressum/: /impressum/
 copyright: Copyright &copy; 2016 - 2024 Nype
 extra_css:
   - assets/stylesheets/extra.css

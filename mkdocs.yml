@@ -12,7 +12,6 @@ nav:
     - Configuration: https://fioritracker.org/fiori-app-usage/configuration
     - Installation: https://fioritracker.org/inst/
     - FAQ: faq.md
-  - Impressum: impressum.md
 
 # Explicitly confirm there is awareness of files not in nav
 not_in_nav: |

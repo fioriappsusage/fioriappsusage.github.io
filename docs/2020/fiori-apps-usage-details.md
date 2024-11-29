@@ -1,5 +1,5 @@
 ---
-title: Explore details
+title: Intro
 description: Learn more about Fiori App Usage Report
 ---
 # Learn more about Fiori App Usage Report

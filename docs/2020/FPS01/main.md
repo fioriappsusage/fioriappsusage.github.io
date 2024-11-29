@@ -12,7 +12,7 @@ All usage records are available for download in an [Excel format](features/posts
 
 ## [Use cases](use-cases/index.md)
 
-## [Configuration](conf.md)
+## [Configuration](https://fioritracker.org/fiori-app-usage/configuration)
 
 
 

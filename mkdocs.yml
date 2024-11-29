@@ -9,7 +9,7 @@ nav:
     - 2020/fiori-apps-usage-details.md
     - Features: 2020/FPS01/features/index.md
     - Architecture: 2020/arch/architecture.md
-    - Configuration: 2020/FPS01/conf.md
+    - Configuration: https://fioritracker.org/fiori-app-usage/configuration
     - Installation: https://fioritracker.org/inst/
     - FAQ: faq.md
   - Impressum: impressum.md

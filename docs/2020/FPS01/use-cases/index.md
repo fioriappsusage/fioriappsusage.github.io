@@ -1,8 +1,11 @@
 ---
 title: List of the use cases
 description: Build roles, Find the out-of-scope apps, Set support priorities
+nype_config:
+  container_css: content-only justify wide-content
 ---
-# Use cases
+
+# List of the use cases
 
 <div class="grid cards" markdown>
 

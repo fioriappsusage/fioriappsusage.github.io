@@ -78,7 +78,7 @@ plugins:
         /2020/FPS01/ft-core-relation-app-usage/?$: /2020/FPS01/features/ft-core-relation-app-usage/
         /2020/inst(.*): https://fioritracker.org/inst$1
         /2020/impressum/: /impressum/
-copyright: Copyright &copy; 2016 - 2024 Nype
+copyright: Copyright &copy; 2016 - {year} Nype
 extra_css:
   - assets/stylesheets/extra.css
 extra_javascript:

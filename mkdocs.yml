@@ -78,7 +78,7 @@ plugins:
         /2020/inst(.*): https://fioritracker.org/inst$1
         /faq/: https://fioritracker.org/faq/
         /2020/impressum/: /impressum/
-copyright: Copyright &copy; 2016 - {year} Nype
+copyright: Copyright &copy; {year} Nype
 extra_css:
   - assets/stylesheets/extra.css
 extra_javascript:

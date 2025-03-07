@@ -11,4 +11,4 @@ The products that you need to install are:
 
 ## Other deployment options
 
-1. [Fiori App Usage Report on production](deployment/deployment.md)
+1. [Fiori App Usage Report on production](https://fioritracker.org/fiori-app-usage/deployment/)

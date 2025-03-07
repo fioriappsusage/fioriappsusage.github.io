@@ -8,8 +8,8 @@ nav:
   - Explore Details: 
     - 2020/fiori-apps-usage-details.md
     - Features: 2020/FPS01/features/index.md
-    - Architecture: 2020/arch/architecture.md
-    - Configuration: https://fioritracker.org/fiori-app-usage/configuration
+    - Architecture: https://fioritracker.org/fiori-app-usage/architecture/
+    - Configuration: https://fioritracker.org/fiori-app-usage/configuration/
     - Installation: https://fioritracker.org/inst/
 
 # Explicitly confirm there is awareness of files not in nav
@@ -75,6 +75,10 @@ plugins:
         /2020/FPS01/cleaning/?$: /2020/FPS01/features/cleaning/
         /2020/FPS01/filtering/?$: /2020/FPS01/features/filtering/
         /2020/FPS01/ft-core-relation-app-usage/?$: /2020/FPS01/features/ft-core-relation-app-usage/
+        /2020/FPS01/extend-existing-role/: https://fioritracker.org/fiori-app-usage-plugin/extend-existing-role/
+        /2020/FPS01/deployment/deployment/: https://fioritracker.org/fiori-app-usage/deployment/
+        /2020/FPS01/performance/: https://fioritracker.org/fiori-app-usage/performance/
+        /2020/arch/architecture/: https://fioritracker.org/fiori-app-usage/architecture/
         /2020/inst(.*): https://fioritracker.org/inst$1
         /faq/: https://fioritracker.org/faq/
         /2020/impressum/: /impressum/

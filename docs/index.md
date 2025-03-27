@@ -90,7 +90,7 @@ Speed up project timelines with SAP S/4HANA app usage insights.
 -   [Role testing monitoring](https://fioriroletesting.com) :material-alert-decagram:{ .nype-pulse title="NEW! Get an offer!" }
 -   Convenient, all SAP systems-wide report on SAP Fiori app usage 
 -   Filtering on systems, functional area, application type (standard, custom, extended apps, etc)
--   Linkage with an exact [application name and its details](2020/FPS01/features/posts/app-ids.md)
+-   Linkage with an exact [application name and its details](https://fioritracker.org/usecases/SPS03/app-identification)
 -   [All records access or export](https://fioritracker.org/features/records-export) for your favorite analytical tool
 
 

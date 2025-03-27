@@ -3,11 +3,11 @@ site_description: Speed up project timelines with app insights.
 site_url: https://help.fioriappsusage.org
 nav:
   - Customer list: https://fioritracker.org/customer-list/
+  - Features: https://fioritracker.org/features
   - Use cases:
     - 2020/FPS01/use-cases/index.md
   - Explore Details: 
     - 2020/fiori-apps-usage-details.md
-    - Features: 2020/FPS01/features/index.md
     - Architecture: https://fioritracker.org/fiori-app-usage/architecture/
     - Configuration: https://fioritracker.org/fiori-app-usage/configuration/
     - Installation: https://fioritracker.org/inst/

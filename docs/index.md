@@ -25,9 +25,9 @@ Speed up project timelines with SAP S/4HANA app usage insights.
 
 </div>
 
-<div style="padding: 0 1em; display: flex; align-items: center;" markdown>
+<div style="padding: 0 1em; display: flex; align-items: center; justify-content: center;" markdown>
 
-[Get an offer](offer.md){ .md-button .md-button--primary } 
+[Get an offer](offer.md){ .md-button .md-button--primary style="font-size: 1.5em;" } 
 
 </div>
 </div>
